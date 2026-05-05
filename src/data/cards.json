@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "rsna-001",
+    "topic": "RSNA / Ventures",
+    "front": "What is RSNA and where is it based?",
+    "back": "Radiological Society of North America\nNon-profit professional society, HQ in Oak Brook, IL\nMembers in 160+ countries\nRadiologists, radiation oncologists, medical physicists",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["RSNA", "company"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-002",
+    "topic": "RSNA / Ventures",
+    "front": "What is RSNA Ventures and when did it launch?",
+    "back": "Mission-aligned for-profit subsidiary of RSNA\nLaunched October 2, 2025\nCommercializes RSNA's content, brand, and standards\nLevers: internal product development, partnerships, licensing, strategic investments\nReinvests returns into RSNA's mission",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["RSNA Ventures", "strategy"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-003",
+    "topic": "RSNA / Ventures",
+    "front": "Why does RSNA Ventures exist? (the strategic story)",
+    "back": "RSNA owns a century of trusted, peer-reviewed radiology knowledge\nThat knowledge lives in journals, CME, and templates — outside the reading workflow\nVentures gets it to the point of care, embedded in tools radiologists already use\nMoves at startup pace a 100-year non-profit can't on its own",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["strategy", "point of care"],
+    "promptType": "concept"
+  },
+  {
+    "id": "rsna-004",
+    "topic": "RSNA / Ventures",
+    "front": "What is the Rad AI partnership?",
+    "back": "RSNA Ventures' first marquee deal\nAnnounced October 7, 2025\nEmbeds 100+ years of RSNA peer-reviewed content into Rad AI Reporting\nSurfaces evidence-based content in real time as radiologists dictate\nDemonstrated at RSNA 2025 (December 2, 2025)",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["Rad AI", "partnership", "RAG"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-005",
+    "topic": "RSNA / Ventures",
+    "front": "Who is Deepa Madhavan?",
+    "back": "Head of Innovation and Product Development at RSNA Ventures\nLead contact for innovation / product\nEmail: rsnaventures@rsna.org",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["people", "leadership"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-006",
+    "topic": "RSNA / Ventures",
+    "front": "Who is Adam E. Flanders, MD — and why should you know him?",
+    "back": "RSNA Board liaison for Information Technology, Philadelphia-based\nPublic face of RSNA's AI / digital strategy\nQuoted spokesperson on the Rad AI partnership\nKnow this name — he is one of the people you'll likely interact with",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["people", "board"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-007",
+    "topic": "RSNA / Ventures",
+    "front": "What does 'point of care' mean in this role?",
+    "back": "Knowledge or decision support delivered at the moment of interpretation or referral\nEmbedded in the radiologist's existing workflow — not after the fact\nThe specific product line you would help lead",
+    "sourceSection": "1. The Company",
+    "difficulty": "core",
+    "tags": ["point of care", "concept"],
+    "promptType": "concept"
+  },
+  {
+    "id": "rsna-008",
+    "topic": "RSNA / Ventures",
+    "front": "Name reference products in the point-of-care / radiology AI space.",
+    "back": "Rad AI Reporting — generative AI on dictation\nBayer Calantic — vendor-neutral AI marketplace\nNuance PowerScribe / DAX Copilot — voice-driven reporting + AI\nAidoc CARE — first FDA-cleared comprehensive foundation-model AI for triage\nSirona Medical — cloud-native unified RIS / PACS / AI workflow",
+    "sourceSection": "1. The Company",
+    "difficulty": "stretch",
+    "tags": ["competitive", "landscape"],
+    "promptType": "concept"
+  },
+  {
+    "id": "rsna-009",
+    "topic": "RSNA / Ventures",
+    "front": "What are RSNA's six peer-reviewed journals?",
+    "back": "Radiology\nRadioGraphics\nRadiology: Artificial Intelligence\nRadiology: Cardiothoracic Imaging\nRadiology: Imaging Cancer\nRadiology Advances\nTogether they are the corpus behind the Rad AI partnership",
+    "sourceSection": "1. The Company",
+    "difficulty": "stretch",
+    "tags": ["assets", "journals"],
+    "promptType": "definition"
+  },
+  {
+    "id": "rsna-010",
+    "topic": "RSNA / Ventures",
+    "front": "What is RSNA Ventures' operating model?",
+    "back": "Build internal products\nPartner with startups\nLicense content\nMake strategic investments\nReinvest commercial returns into RSNA's mission\nMoves at startup pace a 100-year non-profit can't",
+    "sourceSection": "1. The Company",
+    "difficulty": "stretch",
+    "tags": ["strategy", "operating model"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "wf-001",
+    "topic": "Radiology Workflow",
+    "front": "Walk through a radiologist's day end-to-end.",
+    "back": "1) Order placed\n2) Modality acquires images\n3) Studies land in PACS\n4) Radiologist reads from a worklist\n5) Opens study in PACS viewer; compares priors; reviews clinical context\n6) Dictates findings + impression in reporting software\n7) Applies structured template (RadReport, BI-RADS)\n8) Signs and distributes via HL7 / FHIR back to ordering provider's EHR",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["workflow", "JTBD"],
+    "promptType": "concept"
+  },
+  {
+    "id": "wf-002",
+    "topic": "Radiology Workflow",
+    "front": "What does PACS do?",
+    "back": "Picture Archiving and Communication System\nStores, retrieves, and displays imaging studies\nSpeaks DICOM and DICOM-Web\nDiagnostic monitors are typically dual or quad 4K",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["PACS", "systems"],
+    "promptType": "definition"
+  },
+  {
+    "id": "wf-003",
+    "topic": "Radiology Workflow",
+    "front": "What does RIS do — and how is it different from PACS?",
+    "back": "RIS: Radiology Information System — orders, scheduling, worklists, reporting workflow (HL7 v2 / FHIR)\nPACS: stores and displays the images themselves (DICOM)\nTogether they drive the reading room\nRIS is process; PACS is pixels",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["RIS", "PACS", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "wf-004",
+    "topic": "Radiology Workflow",
+    "front": "What does AI orchestration do in radiology?",
+    "back": "Routes studies to the right AI models\nReturns findings into the workflow\nPresents results to the radiologist\nExamples: Bayer Calantic, Blackford, Ferrum, Nuance Precision Imaging Network\nSolves the 'hospitals juggling 5–20 AI vendors' problem",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["AI orchestration", "systems"],
+    "promptType": "definition"
+  },
+  {
+    "id": "wf-005",
+    "topic": "Radiology Workflow",
+    "front": "Who is 'the customer' for RSNA Ventures (B2B2C)?",
+    "back": "Direct customers: AI vendors, EHR / PACS vendors, radiology practices, health systems, AMCs\nEnd users: radiologists across subspecialties — neuro, body, MSK, breast, peds, cardiothoracic, IR, nuclear\nReferring providers also use the output\nSecondary stakeholders: hospital IT, CMIO, biomedical informatics, compliance\nPatients via RadiologyInfo.org",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["customer", "B2B2C"],
+    "promptType": "concept"
+  },
+  {
+    "id": "wf-006",
+    "topic": "Radiology Workflow",
+    "front": "What are the big macro pain points in radiology today?",
+    "back": "Imaging volumes growing ~5% per year\nRadiologist workforce growing only ~2% per year — gap is widening\nBurnout rampant; reading-room productivity pressure at all-time high\nKnowledge explosion outpaces any human reader\nAI vendor fragmentation (5–20 vendors per hospital)\nReimbursement uneven — slow CMS uptake of AI codes\nGlobal workforce shortage — RSNA's international footprint is leverage",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["why now", "macro"],
+    "promptType": "concept"
+  },
+  {
+    "id": "wf-007",
+    "topic": "Radiology Workflow",
+    "front": "What is an RVU and why does it matter?",
+    "back": "Relative Value Unit — productivity unit US radiologists are paid on\nMakes productivity 'religion' in the reading room\nAnything new must integrate without adding clicks\nWorkflow disruption is a kill criterion, not a soft objection",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "stretch",
+    "tags": ["business model", "RVU"],
+    "promptType": "definition"
+  },
+  {
+    "id": "wf-008",
+    "topic": "Radiology Workflow",
+    "front": "Who is Radiology Partners and why do they matter?",
+    "back": "Largest US private radiology practice — ~3,500 radiologists\nPE-backed consolidator\nKey strategic counterparty for any radiology platform play\nUS Radiology Specialists is the other major consolidator",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "stretch",
+    "tags": ["business model", "counterparties"],
+    "promptType": "definition"
+  },
+
+  {
+    "id": "std-001",
+    "topic": "Standards",
+    "front": "What is DICOM?",
+    "back": "Imaging data + metadata standard\nEvery modality speaks DICOM\nCarries pixel data and study metadata\nDICOM SR (Structured Report) carries machine-readable structured reports",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["DICOM", "standards"],
+    "promptType": "definition"
+  },
+  {
+    "id": "std-002",
+    "topic": "Standards",
+    "front": "DICOM vs HL7 — what's the difference?",
+    "back": "DICOM: imaging-specific — pixels, study metadata, structured reports for radiology\nHL7 (v2 + FHIR): broader clinical / admin data exchange — orders, results, ADT, EHR integration\nOverlap exists (DICOM has worklist concepts, HL7 has imaging messages)\nMostly complementary, not competing",
+    "sourceSection": "2 / 6c",
+    "difficulty": "core",
+    "tags": ["DICOM", "HL7", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "std-003",
+    "topic": "Standards",
+    "front": "HL7 v2 vs FHIR — when do you use each?",
+    "back": "HL7 v2: legacy pipe-delimited messaging\nStill ~80% of installed base — orders, results, ADT\nFHIR (R4 / R5): modern REST / JSON API standard\nLets apps embed in EHRs with patient context (SMART-on-FHIR)\nFHIR is the future; coexistence with v2 is the multi-year reality",
+    "sourceSection": "2. Radiology Vertical",
+    "difficulty": "core",
+    "tags": ["HL7", "FHIR", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "std-004",
+    "topic": "Standards",
+    "front": "What is SMART-on-FHIR?",
+    "back": "App-launch framework that runs third-party apps inside the EHR\nUses FHIR for patient + clinical data access\nStandard way to embed point-of-care apps in Epic, Cerner / Oracle Health, etc.\nUnderlying auth is OAuth 2.0 with optional OIDC",
+    "sourceSection": "9. Glossary",
+    "difficulty": "core",
+    "tags": ["FHIR", "SMART", "EHR"],
+    "promptType": "definition"
+  },
+  {
+    "id": "std-005",
+    "topic": "Standards",
+    "front": "What is RadLex?",
+    "back": "RSNA's controlled vocabulary / ontology for radiology terms\nThe glue between unstructured reports and structured data\nUsed to tag content across RSNA properties",
+    "sourceSection": "4. RSNA Assets",
+    "difficulty": "core",
+    "tags": ["RadLex", "RSNA assets"],
+    "promptType": "definition"
+  },
+  {
+    "id": "std-006",
+    "topic": "Standards",
+    "front": "What is RadElement?",
+    "back": "RSNA's library of Common Data Elements (CDEs)\nStandardized question / answer pairs that turn report content into machine-readable data\nBackbone of registries, downstream analytics, AI training, regulatory submission\nHas an API for vendor integration",
+    "sourceSection": "4. RSNA Assets",
+    "difficulty": "core",
+    "tags": ["RadElement", "CDEs"],
+    "promptType": "definition"
+  },
+  {
+    "id": "std-007",
+    "topic": "Standards",
+    "front": "What is RadReport?",
+    "back": "RSNA's library of 200+ structured report templates\n15+ languages\nradreport.org\nTemplates produce structured data feeding analytics, AI training, registry submission",
+    "sourceSection": "4. RSNA Assets",
+    "difficulty": "core",
+    "tags": ["RadReport", "templates"],
+    "promptType": "definition"
+  },
+  {
+    "id": "std-008",
+    "topic": "Standards",
+    "front": "What is the ATLAS AI Data Hub — and how does it tie to FDA?",
+    "back": "RSNA's catalog of AI model cards + dataset cards\n230+ entries across 31 subspecialties\natlas.rsna.org\nBuilt on the ROADMAP ontology\nTrust + transparency layer\nDirectly supports FDA submission requirements for ML-enabled devices",
+    "sourceSection": "4. RSNA Assets",
+    "difficulty": "stretch",
+    "tags": ["ATLAS", "ROADMAP", "trust"],
+    "promptType": "definition"
+  },
+
+  {
+    "id": "ai-001",
+    "topic": "AI in Radiology",
+    "front": "Why is radiology the dominant FDA-AI category?",
+    "back": "1,451 FDA-authorized AI medical devices cumulative through 2025\n1,104 are radiology — 76% of total\n75% of 2025 FDA AI clearances were in radiology\nVolume + image-data structure makes it the natural beachhead",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "core",
+    "tags": ["FDA", "market"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-002",
+    "topic": "AI in Radiology",
+    "front": "Name the 8 categories of radiology AI products.",
+    "back": "1) Image acquisition / reconstruction\n2) Triage / notification\n3) Detection (CADe)\n4) Characterization (CADx)\n5) Quantification / measurement\n6) Workflow / orchestration\n7) Reporting / generative AI\n8) Knowledge / decision support — RSNA Ventures + Rad AI lives here",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "core",
+    "tags": ["taxonomy"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-003",
+    "topic": "AI in Radiology",
+    "front": "Critical nuance: do production tools generate full radiology reports from raw images?",
+    "back": "No — no deployed system today does full image-to-report generation\nProduction 'report generation' tools work on text — the radiologist's dictated findings\nThey auto-write impressions, fix grammar, pull macros\nImage-to-report end-to-end is the vision (Aidoc CARE moves toward it)\nHallucination, regulatory risk, and liability keep it out of production",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "core",
+    "tags": ["nuance", "generative AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-004",
+    "topic": "AI in Radiology",
+    "front": "Why is RAG the right design for the RSNA + Rad AI partnership?",
+    "back": "Content updates frequently (new journal articles)\nCitations are required for clinical trust\nAuditability matters in a regulated environment\nNo model retraining required\nKeeps the source of truth in the corpus — exactly what RSNA contributes",
+    "sourceSection": "3 / 5b / 6c",
+    "difficulty": "core",
+    "tags": ["RAG", "Rad AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-005",
+    "topic": "AI in Radiology",
+    "front": "When would you use RAG vs fine-tuning?",
+    "back": "RAG when: content updates, citations matter, auditability needed, regulatory bar high — the Rad AI + RSNA case\nFine-tune when: consistent style / format essential, base model can't do the task with examples, latency / cost rules out long context\nReal answer: usually both — fine-tune for style, RAG for facts",
+    "sourceSection": "6c. Tech Depth",
+    "difficulty": "core",
+    "tags": ["RAG", "fine-tuning", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "ai-006",
+    "topic": "AI in Radiology",
+    "front": "Define embeddings and how they work in a RAG system.",
+    "back": "Vector representations of text (or other content) for semantic search\nPipeline: chunk → embed → store in vector DB → at query time, embed the query and retrieve top-k similar chunks\nTop-k chunks fed to the LLM as grounded context\nVector DBs: pgvector, Pinecone, Weaviate, Qdrant, Chroma",
+    "sourceSection": "5b. AI/ML Toolkit",
+    "difficulty": "core",
+    "tags": ["embeddings", "RAG"],
+    "promptType": "definition"
+  },
+  {
+    "id": "ai-007",
+    "topic": "AI in Radiology",
+    "front": "How do you evaluate a generative AI healthcare product?",
+    "back": "Offline: golden test set — factuality, completeness, hallucination rate; LLM-as-judge with human spot-check\nOnline A/B: workflow metrics (time-to-sign, edits-per-impression); guardrail metrics\nClinical: independent reader study, AI-assisted vs not\nContinuous: drift monitoring, periodic re-validation, customer-reported issues feeding eval set",
+    "sourceSection": "6c. Tech Depth",
+    "difficulty": "core",
+    "tags": ["eval", "healthcare AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-008",
+    "topic": "AI in Radiology",
+    "front": "Foundation model selection criteria for healthcare AI?",
+    "back": "Latency — interactive UX vs batch\nCost — input vs output token economics\nBAA availability — non-negotiable for PHI\nOn-prem deployment options — for strict data residency\nClosed: GPT-4o, Claude, Gemini\nOpen: Llama, Mistral\nHealthcare-tuned: MedPaLM, BioGPT, Med-Gemini\nDon't pick on accuracy alone — regulatory + privacy often dominate",
+    "sourceSection": "5b. AI/ML Toolkit",
+    "difficulty": "stretch",
+    "tags": ["model selection"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-009",
+    "topic": "AI in Radiology",
+    "front": "What are model cards / dataset cards — and how does RSNA standardize them?",
+    "back": "Structured disclosures of model performance, intended use, training data, known limitations\nRSNA's ATLAS AI Data Hub catalogs 230+ across 31 subspecialties\nUses the ROADMAP ontology\nDirectly supports FDA transparency expectations for ML-enabled devices",
+    "sourceSection": "5b / 4",
+    "difficulty": "core",
+    "tags": ["model cards", "ATLAS", "trust"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-010",
+    "topic": "AI in Radiology",
+    "front": "Name a 6-layer AI product metrics framework.",
+    "back": "Model quality: sensitivity, specificity, AUROC, calibration\nRetrieval quality: precision@k, MRR, citation accuracy\nProduct engagement: DAU, session depth, feature adoption\nWorkflow impact: time-to-sign, edits-per-impression, follow-up compliance\nClinical outcome: diagnostic accuracy delta, missed-finding rate\nBusiness: ARR, NRR, gross margin, partner-attributed revenue",
+    "sourceSection": "5b. AI/ML Toolkit",
+    "difficulty": "core",
+    "tags": ["metrics", "framework"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ai-011",
+    "topic": "AI in Radiology",
+    "front": "Top FDA-cleared AI vendors by clearance count?",
+    "back": "GE HealthCare — 120 (most prolific)\nSiemens Healthineers — 89\nPhilips — 50\nCanon — 45\nUnited Imaging — 38\nAidoc — 31\nDeepHealth — 28\nRad AI is text-AI on a different reg pathway — closest reference partner for this role",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "stretch",
+    "tags": ["competitive", "FDA"],
+    "promptType": "definition"
+  },
+  {
+    "id": "ai-012",
+    "topic": "AI in Radiology",
+    "front": "What is Aidoc CARE and why is it a milestone?",
+    "back": "First FDA-cleared comprehensive foundation model AI for triage (Jan 2026)\n97% sensitivity / 98% specificity\nMilestone toward image-to-report end-to-end\nStill triage-focused, not full report generation",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "stretch",
+    "tags": ["foundation model", "Aidoc"],
+    "promptType": "definition"
+  },
+
+  {
+    "id": "ml-001",
+    "topic": "AI/ML Systems",
+    "front": "Walk through the full RAG pipeline end-to-end.",
+    "back": "1) Ingest source content\n2) Chunk into ~200–1000 token passages with overlap\n3) Embed each chunk with an embedding model into a vector\n4) Store vectors + metadata in a vector DB\n5) At query time, embed the user's query\n6) Retrieve top-k similar chunks (often hybrid with keyword search)\n7) Optional: rerank with a cross-encoder\n8) Inject retrieved chunks into the LLM prompt with citation markers\n9) LLM generates an answer grounded in retrieved context\n10) Return answer with citations and a groundedness score",
+    "difficulty": "core",
+    "tags": ["RAG", "architecture"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-002",
+    "topic": "AI/ML Systems",
+    "front": "What is a vector database and how does similarity search work?",
+    "back": "Database optimized for high-dimensional vector similarity (cosine, dot product, L2)\nUses approximate-nearest-neighbor (ANN) indexes\nHNSW: most common (graph-based)\nIVF: inverted file with quantization\nScaNN: alternative\nANN trades small recall hit for orders-of-magnitude faster search\nExamples: pgvector, Pinecone, Weaviate, Qdrant, Chroma, Milvus",
+    "difficulty": "core",
+    "tags": ["vector DB", "ANN", "HNSW"],
+    "promptType": "definition"
+  },
+  {
+    "id": "ml-003",
+    "topic": "AI/ML Systems",
+    "front": "What is HNSW and why is it the default ANN index?",
+    "back": "Hierarchical Navigable Small World — multi-layer graph\nEach node has links to nearby vectors\nSearch starts at the top (sparse) layer, walks toward query, descends as it gets closer\nRecall ~95–99% at sub-millisecond latency over millions of vectors\nTradeoff: memory-heavy and slow to insert vs IVF\nBest-in-class for read-heavy workloads",
+    "difficulty": "stretch",
+    "tags": ["HNSW", "vector DB"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-004",
+    "topic": "AI/ML Systems",
+    "front": "Chunking strategies for RAG — name the main ones and tradeoffs.",
+    "back": "Fixed-size: simple, may split mid-sentence\nRecursive character split: respects paragraph / sentence boundaries\nSemantic chunking: split where embedding similarity drops — coherent but expensive\nHierarchical / parent-child: embed small chunks for retrieval, feed parent context to LLM — best of both\nDocument-aware: exploit headings, sections, tables\nFor RSNA: hierarchical on journal articles is the obvious choice",
+    "difficulty": "core",
+    "tags": ["chunking", "RAG"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-005",
+    "topic": "AI/ML Systems",
+    "front": "What is hybrid search and why use it?",
+    "back": "Combines dense vector retrieval (semantic) with sparse keyword retrieval (BM25)\nVectors win on paraphrase / concept match\nBM25 wins on rare medical terms, drug names, acronyms, exact-quote queries\nFuse via Reciprocal Rank Fusion (RRF) or weighted score\nFor clinical content with names like 'Aidoc CARE' or 'PI-RADS v2.1', hybrid materially beats pure dense",
+    "difficulty": "core",
+    "tags": ["hybrid search", "BM25", "RRF"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-006",
+    "topic": "AI/ML Systems",
+    "front": "What is reranking and when is it worth the cost?",
+    "back": "Cross-encoder model scores each (query, doc) pair after initial top-k retrieval\nFar more accurate than the bi-encoder used for retrieval\nAdds 50–200ms latency\nUse when top-k accuracy matters and context budget is tight\nSkip when corpus is small or context is huge\nTools: Cohere Rerank, BGE-reranker",
+    "difficulty": "stretch",
+    "tags": ["reranking", "RAG"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-007",
+    "topic": "AI/ML Systems",
+    "front": "Define hallucination and the main types.",
+    "back": "Output that is fluent and confident but factually wrong or unsupported\nIntrinsic: contradicts the source you provided\nExtrinsic: adds facts not in the source\nClosed-domain: wrong about the corpus you control\nOpen-domain: wrong about the world\nRAG primarily attacks intrinsic + closed-domain\nOpen-domain is harder — needs guardrails + refusal training",
+    "difficulty": "core",
+    "tags": ["hallucination"],
+    "promptType": "definition"
+  },
+  {
+    "id": "ml-008",
+    "topic": "AI/ML Systems",
+    "front": "Six concrete techniques to reduce hallucination in a clinical RAG product.",
+    "back": "1) Force citations — every claim must point to a retrieved chunk\n2) Faithfulness check — second-pass LLM verifies each claim is supported\n3) Lower temperature (0–0.3) for factual responses\n4) Refusal training — model refuses if no relevant chunk retrieved\n5) Constrained generation — JSON schema, controlled vocabulary\n6) Human-in-the-loop on low-confidence outputs",
+    "difficulty": "core",
+    "tags": ["hallucination", "guardrails"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-009",
+    "topic": "AI/ML Systems",
+    "front": "What is prompt injection — direct vs indirect?",
+    "back": "Adversarial input that hijacks LLM behavior\nDirect: user types 'ignore previous instructions and do X'\nIndirect: malicious content lives in retrieved data — poisoned PDF / webpage that the RAG retriever pulls in and the LLM treats as instructions\nIndirect is the bigger risk for RAG systems\nDefenses: input / output filtering, instruction hierarchy, retrieved-content sandboxing, signed source content, structured outputs",
+    "difficulty": "core",
+    "tags": ["security", "prompt injection"],
+    "promptType": "compare"
+  },
+  {
+    "id": "ml-010",
+    "topic": "AI/ML Systems",
+    "front": "What is the 'lost in the middle' problem?",
+    "back": "Empirical finding (Liu et al. 2023): LLMs attend strongest to context start + end, weakest to middle\nStuffing 50 chunks into long context is worse than retrieving + ordering top 5\nImplications for RAG: aggressively rerank, keep context small, place most-relevant chunks at edges",
+    "difficulty": "stretch",
+    "tags": ["context window", "retrieval"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-011",
+    "topic": "AI/ML Systems",
+    "front": "Token economics — how do you reason about cost?",
+    "back": "Pricing is per-token; output typically 3–5x input\nLevers:\n— Prompt caching (~90% off static prefixes)\n— Smaller model for simple steps (model cascading)\n— Batch API for offline workloads (~50% off)\n— Reduce retrieved chunks\n— Truncate long histories\nStreaming reduces perceived latency, not cost\nFor clinical content: input dominates — cache the system prompt + tool definitions",
+    "difficulty": "core",
+    "tags": ["cost", "tokens"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-012",
+    "topic": "AI/ML Systems",
+    "front": "LLM latency vocabulary — TTFT vs TPS vs e2e?",
+    "back": "TTFT (time to first token): how long before user sees streaming start — dominated by prompt processing\nTPS (tokens per second): generation throughput once streaming starts\nEnd-to-end: TTFT + (output_tokens / TPS)\nStreaming hides TTFT in the UI, doesn't reduce compute\nTargets for an interactive clinical product:\n— TTFT <1s\n— TPS >40\n— e2e <5s",
+    "difficulty": "stretch",
+    "tags": ["latency", "TTFT"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-013",
+    "topic": "AI/ML Systems",
+    "front": "RAG vs fine-tuning vs LoRA vs prompt engineering — when to use each?",
+    "back": "Prompt engineering: free, instant, weakest\nRAG: best for evolving facts + citations + auditability\nFull fine-tuning: expensive, opinionated; best for consistent style / format\nLoRA / PEFT: lightweight fine-tune (low-rank adapters) — cheap, swappable, tone over facts\nReal systems often layer all four",
+    "difficulty": "core",
+    "tags": ["fine-tuning", "LoRA", "RAG", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "ml-014",
+    "topic": "AI/ML Systems",
+    "front": "How do you build an evaluation pipeline for a RAG product?",
+    "back": "Three layers:\nRetrieval eval: golden query / relevant-chunk pairs — recall@k, MRR, nDCG\nGeneration eval: golden Q/A pairs — faithfulness, answer relevance, context precision (RAGAS, TruLens automate this)\nE2E eval: LLM-as-judge with human spot-checks; clinician panel for high-stakes cases\nRun on every model / prompt / chunk-strategy change\nTrack drift over time",
+    "difficulty": "core",
+    "tags": ["evaluation", "RAG"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-015",
+    "topic": "AI/ML Systems",
+    "front": "What is LLM-as-judge — and what are its pitfalls?",
+    "back": "Use a strong LLM (GPT-4o, Claude) to score outputs of another model on a rubric\nCheap and scalable vs human eval\nPitfalls:\n— Position bias (favors first option in pairwise)\n— Verbosity bias (favors longer answers)\n— Self-preference (judges its own family higher)\n— Calibration drift across model versions\nMitigate: shuffle order, anchor with rubric examples, blind to model identity, validate against human labels quarterly",
+    "difficulty": "stretch",
+    "tags": ["LLM-as-judge", "evaluation"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-016",
+    "topic": "AI/ML Systems",
+    "front": "What are guardrails — and what does an LLM guardrail stack look like?",
+    "back": "Layers around the model that filter inputs and outputs\nInput: PII redaction, prompt-injection detection, scope-of-question check\nPre-generation: refusal if no relevant retrieval\nMid-generation: structured output / schema enforcement\nPost-generation: faithfulness / citation check, toxicity, profanity, jailbreak detector\nLogging + alerting on guardrail trips\nTools: NeMo Guardrails, Guardrails AI, Llama Guard",
+    "difficulty": "core",
+    "tags": ["guardrails", "safety"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-017",
+    "topic": "AI/ML Systems",
+    "front": "What is observability for an LLM product?",
+    "back": "Capture every (prompt, retrieved chunks, response, latency, cost, user, feedback) tuple as a trace\nUses:\n— Debug bad responses\n— Build eval datasets from real traffic\n— Monitor drift in retrieval quality, latency, cost, refusal rate\nTools: LangSmith, Langfuse, Arize Phoenix, Helicone, Datadog LLM Observability\nFor PHI: traces must be encrypted, BAA-compliant, access-controlled",
+    "difficulty": "core",
+    "tags": ["observability", "LLM"],
+    "promptType": "concept"
+  },
+  {
+    "id": "ml-018",
+    "topic": "AI/ML Systems",
+    "front": "What is a model card and what should it contain for clinical use?",
+    "back": "Structured disclosure document for an ML model\nContents: intended use, out-of-scope use, training data sources + dates + demographics, evaluation datasets + metrics, known limitations, ethical considerations, version, contact owner\nFor FDA-relevant clinical use, also:\n— Subgroup performance (sex, age, ethnicity, equipment vendor)\n— Failure modes\n— Contraindications\n— Performance under distribution shift\nRSNA's ATLAS standardizes this for radiology",
+    "difficulty": "core",
+    "tags": ["model card", "transparency"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "img-001",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "What's actually in a DICOM file — pixels and tags?",
+    "back": "Pixel data: the image array (CT slices, MR slices, X-ray frame, etc.)\nMetadata tags: structured key-value pairs in a hierarchical dictionary\nKey tags: PatientID, StudyInstanceUID, SeriesInstanceUID, SOPInstanceUID, Modality, BodyPartExamined, ImagePositionPatient, ImageOrientationPatient\nTransfer Syntax: tells you the encoding (uncompressed, JPEG, JPEG 2000, RLE)\nA single 'study' = many series; a series = many instances",
+    "difficulty": "core",
+    "tags": ["DICOM", "metadata"],
+    "promptType": "definition"
+  },
+  {
+    "id": "img-002",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "What does it mean to 'preprocess' a medical image for AI?",
+    "back": "Windowing: clip pixel values to clinically relevant Hounsfield range (e.g. lung, bone, brain windows for CT)\nNormalization: rescale to a fixed range (z-score or 0–1)\nResampling: standardize voxel spacing across scanners\nResize / crop / pad: feed a fixed input shape to the model\nAnonymize: strip PHI tags and burn-in pixel text\nAugmentation: rotate, flip, intensity jitter for training\nWithout this, models break across scanners",
+    "difficulty": "core",
+    "tags": ["preprocessing", "imaging"],
+    "promptType": "concept"
+  },
+  {
+    "id": "img-003",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Common CNN architectures in radiology AI?",
+    "back": "U-Net: segmentation (organs, lesions, tumors) — encoder-decoder with skip connections\nResNet / EfficientNet: classification (normal vs abnormal, finding categories)\nFaster R-CNN / RetinaNet / YOLO: detection (bounding boxes around findings)\n3D U-Net / V-Net: volumetric segmentation (CT, MRI volumes)\nnnU-Net: self-configuring U-Net — a strong default baseline",
+    "difficulty": "core",
+    "tags": ["CNN", "U-Net", "segmentation"],
+    "promptType": "definition"
+  },
+  {
+    "id": "img-004",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Vision Transformers (ViT) and self-supervised learning — why care?",
+    "back": "ViT splits an image into patches and applies transformer attention\nAt scale, beats CNNs on natural images\nDINOv2 / MAE: self-supervised — learn representations from unlabeled images\nMassive deal for medical imaging where labels are scarce and expensive\nFoundation models for radiology (RadFM, BiomedCLIP) build on this paradigm",
+    "difficulty": "stretch",
+    "tags": ["ViT", "self-supervised"],
+    "promptType": "concept"
+  },
+  {
+    "id": "img-005",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Name the leading medical / imaging foundation models.",
+    "back": "Aidoc CARE: first FDA-cleared comprehensive foundation model for triage\nMed-SAM: Segment Anything Model adapted for medical imaging\nRadFM: 16B-parameter radiology foundation model (image + text)\nBiomedCLIP: image-text contrastive model trained on biomedical literature\nMed-PaLM M (Google): multimodal medical model\nMed-Gemini: Google's medical-tuned Gemini variant",
+    "difficulty": "stretch",
+    "tags": ["foundation model", "RadFM", "Med-SAM"],
+    "promptType": "definition"
+  },
+  {
+    "id": "img-006",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "2D vs 3D models — when do you use each?",
+    "back": "2D: single slice or projection (chest X-ray, mammography, single CT slice)\n— Faster, less data needed, smaller models\n— Loses cross-slice context\n3D: full volume (CT, MRI)\n— Captures anatomy in 3D, better for tumors, cardiac, brain\n— GPU memory is the constraint\n— Often run as 2.5D (a few adjacent slices) as a compromise\nFor RSNA-content RAG: irrelevant — text-side. For imaging AI partnerships: critical to know.",
+    "difficulty": "stretch",
+    "tags": ["2D", "3D", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "img-007",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "What are multi-modal medical models?",
+    "back": "Models that take both image and text as input — and often produce text\nUse cases: image captioning (draft impression), visual Q&A on a study, image-grounded clinical search\nExamples: RadFM, Med-PaLM M, Med-Gemini, BiomedCLIP\nCenter-of-gravity for next-wave radiology AI: image-grounded report generation, with citations and grounding",
+    "difficulty": "stretch",
+    "tags": ["multi-modal", "vision-language"],
+    "promptType": "concept"
+  },
+  {
+    "id": "img-008",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "What is federated learning — and why does healthcare care?",
+    "back": "Train models across many sites without centralizing raw data\nEach site trains locally; only model updates (weights / gradients) are shared\nA central coordinator aggregates updates into a global model\nCritical when hospitals can't share PHI across institutional boundaries\nFrameworks: NVIDIA FLARE, OpenFL, Flower\nCaveats: communication overhead, attack surface (gradient inversion), heterogeneous data quality",
+    "difficulty": "core",
+    "tags": ["federated learning", "privacy"],
+    "promptType": "definition"
+  },
+  {
+    "id": "img-009",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Segmentation and detection metrics — Dice, IoU, FROC.",
+    "back": "Dice (F1 for masks): 2 × overlap / (predicted + ground truth)\nIoU (Jaccard): overlap / union\n— Dice is more forgiving on small structures\nFROC: free-response ROC for detection — sensitivity vs false positives per scan\n— The standard for lesion detection in CAD\nClassification still uses AUROC + sensitivity + specificity\nFor generative captioning: BLEU / ROUGE / RadGraph F1",
+    "difficulty": "stretch",
+    "tags": ["metrics", "segmentation", "FROC"],
+    "promptType": "definition"
+  },
+  {
+    "id": "img-010",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Calibration vs accuracy — why does it matter clinically?",
+    "back": "Accuracy: did you get the right answer?\nCalibration: when you say '90% confident', are you actually right 90% of the time?\nA model with high accuracy but poor calibration is dangerous — confident wrongness leads clinicians to over-trust\nMetrics: Brier score, Expected Calibration Error (ECE), reliability diagrams\nFix: temperature scaling, Platt scaling, isotonic regression\nAsk vendors for both",
+    "difficulty": "core",
+    "tags": ["calibration", "trust"],
+    "promptType": "compare"
+  },
+  {
+    "id": "img-011",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Interpretability for medical imaging AI — what tools?",
+    "back": "Grad-CAM: class-activation heatmaps showing which pixels drove the decision\nAttention maps: where transformers attended\nIntegrated Gradients / SHAP: feature attribution\nCounterfactuals: 'what would change the prediction?'\nFor regulators + clinicians: explainability is risk mitigation, not optional\nLimits: heatmaps highlight where, not why — they're necessary, not sufficient",
+    "difficulty": "core",
+    "tags": ["interpretability", "Grad-CAM"],
+    "promptType": "concept"
+  },
+  {
+    "id": "img-012",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Distribution shift in medical imaging — and why subgroup analysis matters.",
+    "back": "Models trained on Hospital A often degrade on Hospital B\nSources of shift: scanner manufacturer (GE vs Siemens), protocol differences, demographic mix, disease prevalence\nFix: train on diverse multi-site data; monitor performance per site post-deploy\nSubgroup analysis: report performance by sex, age, ethnicity, scanner vendor — FDA increasingly expects this\nA single AUROC number can hide catastrophic subgroup failure",
+    "difficulty": "core",
+    "tags": ["distribution shift", "fairness"],
+    "promptType": "concept"
+  },
+  {
+    "id": "img-013",
+    "topic": "Imaging AI / Foundation Models",
+    "front": "Why don't deployed systems generate full reports from images yet?",
+    "back": "Hallucination risk is high-stakes — a fabricated finding can drive patient harm\nLiability: who is responsible when an AI report is wrong?\nRegulatory uncertainty for image-to-text generation as SaMD\nClinical trust: radiologists won't sign reports they can't verify\nWorkflow: dictation + structured templates already work and are fast\nPath forward: image-grounded suggestions with citations and human sign-off, not autonomous generation",
+    "difficulty": "core",
+    "tags": ["nuance", "generative AI"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "api-001",
+    "topic": "Healthcare APIs",
+    "front": "What is FHIR and what's a Resource?",
+    "back": "Fast Healthcare Interoperability Resources — HL7's modern REST / JSON standard\nA Resource is a structured object representing one clinical concept\nExamples: Patient, Observation, DiagnosticReport, ImagingStudy, Encounter, Medication\nEach has a stable URL, JSON (or XML) representation, standard CRUD\nFHIR R4 is the most deployed; R5 adds capability statements + more",
+    "difficulty": "core",
+    "tags": ["FHIR", "API"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-002",
+    "topic": "Healthcare APIs",
+    "front": "Name the FHIR resources most relevant to a radiology / RSNA product.",
+    "back": "ImagingStudy: DICOM study reference\nDiagnosticReport: final report content\nObservation: individual findings, BI-RADS scores, measurements\nServiceRequest: the order\nPatient, Encounter, Practitioner: clinical context\nMedia: snapshots\nDocumentReference: PDF / CDA pointers\nBundle: wraps multiple resources\nCapabilityStatement: server's supported operations",
+    "difficulty": "stretch",
+    "tags": ["FHIR", "radiology"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-003",
+    "topic": "Healthcare APIs",
+    "front": "How does SMART-on-FHIR launch work — EHR launch vs standalone?",
+    "back": "EHR launch (most common in clinical workflow):\n— EHR opens your app with a launch token\n— App exchanges token for OAuth access token scoped to current patient + user + encounter\nStandalone launch:\n— User opens your app directly\n— App initiates OAuth against EHR's authorization server\n— User picks the patient\nEither way: access token + context (patient, encounter, user)\nFlow is OAuth 2.0 authorization code with PKCE",
+    "difficulty": "core",
+    "tags": ["SMART", "OAuth", "EHR"],
+    "promptType": "compare"
+  },
+  {
+    "id": "api-004",
+    "topic": "Healthcare APIs",
+    "front": "What are SMART scopes and give 3 examples?",
+    "back": "Permission strings requested at OAuth time, bounding what the app can read / write\nFormat: '{actor}/{resource}.{action}'\nExamples:\n— patient/Observation.read — read observations for the launched patient\n— user/Patient.read — read all patients the user can see\n— launch/patient — request patient context\n— system/*.read — backend service access\nGranular SMART scopes (R2.0+) split read into 'rs' (read+search) and add filtering",
+    "difficulty": "core",
+    "tags": ["SMART", "scopes"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-005",
+    "topic": "Healthcare APIs",
+    "front": "OAuth 2.0 authorization code flow — the steps in plain English.",
+    "back": "1) App redirects user to authorization server (client_id, scopes, redirect_uri, state, PKCE code_challenge)\n2) User authenticates and consents\n3) Auth server redirects back with one-time authorization code\n4) App backend exchanges code (+ PKCE verifier + client secret) for access token + refresh token\n5) App calls FHIR API with 'Authorization: Bearer <access_token>'\n6) When access token expires, use refresh token for a new one\nPKCE prevents code interception in mobile / SPA contexts",
+    "difficulty": "core",
+    "tags": ["OAuth", "authorization code"],
+    "promptType": "concept"
+  },
+  {
+    "id": "api-006",
+    "topic": "Healthcare APIs",
+    "front": "DICOMweb — what are WADO-RS, QIDO-RS, STOW-RS?",
+    "back": "RESTful HTTP APIs for DICOM, replacing legacy DIMSE protocols\nWADO-RS: retrieve studies / series / instances / frames / metadata over HTTP (Web Access to DICOM Objects)\nQIDO-RS: query / search for studies (Query based on ID for DICOM Objects)\nSTOW-RS: store new DICOM objects (Store Over the Web)\nLet modern web apps integrate with PACS without raw DICOM TCP",
+    "difficulty": "core",
+    "tags": ["DICOMweb", "PACS"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-007",
+    "topic": "Healthcare APIs",
+    "front": "HL7 v2 message anatomy — segments, fields, ADT vs ORM vs ORU?",
+    "back": "Pipe-delimited messages composed of segments (3-letter codes) with fields\nMSH = message header (always first)\nCommon message types:\n— ADT: admit / discharge / transfer (demographics + encounters)\n— ORM: orders\n— ORU: observations / results, including radiology reports\n— SIU: scheduling\n— MDM: document management\n80% of installed clinical messaging is still HL7 v2; FHIR migration is the long arc, coexistence is the reality",
+    "difficulty": "stretch",
+    "tags": ["HL7 v2", "messaging"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-008",
+    "topic": "Healthcare APIs",
+    "front": "What are CDS Hooks?",
+    "back": "FHIR-based pattern: EHR fires a 'hook' event\nHooks: patient-view, order-sign, medication-prescribe, etc.\nThird-party CDS service responds with cards (suggestions, info, alerts)\nEHR renders cards inline in the workflow\nStateless, JSON, real-time\nNatural pattern for surfacing RSNA content when a radiologist opens a study or signs a report",
+    "difficulty": "core",
+    "tags": ["CDS Hooks", "decision support"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-009",
+    "topic": "Healthcare APIs",
+    "front": "What is Bulk FHIR / Flat FHIR?",
+    "back": "FHIR's population-level export operation ($export)\nAsynchronous request to an EHR returns NDJSON files\nCovers all resources for a patient group, organization, or system\nDesigned for analytics, registries, AI training data, value-based care\nCritical for RSNA Ventures if a product needs to ingest a partner's de-identified imaging report corpus",
+    "difficulty": "stretch",
+    "tags": ["Bulk FHIR", "data export"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-010",
+    "topic": "Healthcare APIs",
+    "front": "FHIR vs EHR proprietary APIs (Epic / Cerner) — what's the practical difference?",
+    "back": "FHIR is the standard surface\nEpic (App Orchard / Showroom) and Cerner / Oracle Health (code console) wrap their FHIR endpoints with developer programs, app review, per-customer activation\nFHIR-conformant ≠ deployable\nYou still go through each vendor's marketplace + each customer hospital must enable your app\nIntegration time: months, not weeks. Plan accordingly.",
+    "difficulty": "core",
+    "tags": ["FHIR", "Epic", "Cerner"],
+    "promptType": "compare"
+  },
+  {
+    "id": "api-011",
+    "topic": "Healthcare APIs",
+    "front": "What is PIX / PDQ?",
+    "back": "Patient Identifier Cross-reference (PIX): returns the equivalent identifier in another domain\nPatient Demographics Query (PDQ): returns demographics\nIHE profiles for matching a patient across systems with different MRNs\nCritical when integrating across hospital systems, HIEs, or stitching imaging from multiple sites",
+    "difficulty": "stretch",
+    "tags": ["PIX", "PDQ", "IHE"],
+    "promptType": "definition"
+  },
+  {
+    "id": "api-012",
+    "topic": "Healthcare APIs",
+    "front": "Audit logging requirements for healthcare APIs?",
+    "back": "HIPAA Security Rule requires logs of access to PHI: who, what, when, from where, success / fail\nWire formats: FHIR AuditEvent or ATNA (IHE)\nRequirements:\n— Tamper-evident\n— Retained 6+ years\n— Regularly reviewed for anomalies\nFor SMART apps: log every token use, every PHI fetch, every consent change\nNon-negotiable in BAAs",
+    "difficulty": "core",
+    "tags": ["audit", "HIPAA"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "sys-001",
+    "topic": "System Design",
+    "front": "Sync vs async — when do you use each?",
+    "back": "Sync (HTTP request / response):\n— User is waiting\n— Latency budget <1–2s\n— Needs immediate confirmation\nAsync (queue / webhook / polling):\n— Work takes >2s\n— May fail and retry\n— Fan-out to many consumers\n— Runs offline\nHealthcare examples:\n— Sync: autocomplete in a reporting UI\n— Async: 30-min batch FHIR export, AI inference on a large study, indexing a new journal article",
+    "difficulty": "core",
+    "tags": ["sync", "async"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-002",
+    "topic": "System Design",
+    "front": "Webhook vs polling — and how do you secure a webhook?",
+    "back": "Polling: client repeatedly asks server for updates\n— Wasteful but simple, works through firewalls\nWebhook: server POSTs to client's URL on event\n— Efficient, real-time, requires client to expose an endpoint\nSecure webhooks via:\n— HMAC signature header (server signs payload with shared secret)\n— IP allowlist\n— mTLS for healthcare\n— Idempotency keys so retries don't double-fire",
+    "difficulty": "core",
+    "tags": ["webhook", "HMAC", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-003",
+    "topic": "System Design",
+    "front": "What is idempotency and why do APIs need it?",
+    "back": "Idempotent operation: same result whether called once or N times\nGET, PUT, DELETE are naturally idempotent; POST is not\nNetworks fail and retry — any non-trivial API needs idempotency keys (client-generated UUID in a header)\nServer recognizes duplicates and returns the same response\nCritical anywhere a duplicate would charge twice, file twice, or order an imaging study twice",
+    "difficulty": "core",
+    "tags": ["idempotency", "APIs"],
+    "promptType": "definition"
+  },
+  {
+    "id": "sys-004",
+    "topic": "System Design",
+    "front": "Caching layers in a typical web product?",
+    "back": "Browser cache (HTTP headers, service workers)\n→ CDN edge cache (CloudFront, Fastly)\n→ Reverse-proxy cache (nginx, Varnish)\n→ Application cache (Redis, Memcached)\n→ Database query cache\n→ Database itself\nMove work as close to the user as you can while keeping correctness\nLLM products add: semantic prompt cache + exact prompt cache",
+    "difficulty": "core",
+    "tags": ["caching"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-005",
+    "topic": "System Design",
+    "front": "Cache invalidation — strategies and the famous joke.",
+    "back": "TTL: time-to-live — simplest, accepts staleness\nWrite-through: write to cache + DB simultaneously\nWrite-behind: write cache immediately, DB async (risky)\nCache-aside: app reads from cache, falls back to DB and populates\nTag-based purge: invalidate by group\nPhil Karlton: 'There are only two hard things in computer science: cache invalidation and naming things.'\nMost cache bugs are stale reads after a write",
+    "difficulty": "core",
+    "tags": ["caching", "invalidation"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-006",
+    "topic": "System Design",
+    "front": "CAP theorem in plain English.",
+    "back": "In a distributed system, when a network partition happens (P, inevitable), choose between:\n— Consistency: everyone sees the same data\n— Availability: every request gets an answer\nYou can't have all three.\nCP systems (most SQL, MongoDB strict, etcd): refuse writes during partition\nAP systems (Cassandra, DynamoDB default, eventual stores): keep accepting writes, reconcile later\nHealthcare critical-path data (orders, meds): typically wants CP\nAnalytics / search: typically wants AP",
+    "difficulty": "core",
+    "tags": ["CAP", "distributed"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-007",
+    "topic": "System Design",
+    "front": "ACID vs BASE.",
+    "back": "ACID (traditional RDBMS): Atomicity, Consistency, Isolation, Durability\n— Every transaction either fully commits or fully rolls back\n— DB is always in a valid state\nBASE (NoSQL / distributed): Basically Available, Soft state, Eventual consistency\n— Accepts temporary inconsistency for higher availability and scale\nModern healthcare systems mix both:\n— Postgres ACID for clinical orders\n— DynamoDB BASE for activity feeds and search",
+    "difficulty": "stretch",
+    "tags": ["ACID", "BASE", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-008",
+    "topic": "System Design",
+    "front": "Microservices vs monolith — the honest tradeoff.",
+    "back": "Monolith: simple to build, deploy, debug; one DB; scale by replication\n— Best for small teams, early-stage products\nMicroservices: independent scaling, polyglot, team autonomy\n— Pay with operational complexity (service mesh, distributed tracing, eventual consistency, data ownership)\nMost successful 'microservices' stories started as a well-modularized monolith\nConway's Law: architecture mirrors org chart — split services along team boundaries",
+    "difficulty": "core",
+    "tags": ["microservices", "monolith", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-009",
+    "topic": "System Design",
+    "front": "Why use a message queue (Kafka, SQS, RabbitMQ)?",
+    "back": "Decouple producers from consumers\nBuffer bursts so a slow consumer doesn't take production down\nEnable retries on transient failures\nFan-out one event to many consumers\nProvide an audit trail of events\nCommon patterns: order-event topic feeds analytics + billing + audit; AI inference job queue; webhook delivery queue with exponential backoff\nTradeoff: introduces eventual consistency and ordering complexity",
+    "difficulty": "core",
+    "tags": ["queues", "Kafka"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-010",
+    "topic": "System Design",
+    "front": "Multi-tenancy patterns for healthcare SaaS — silo, pool, or hybrid?",
+    "back": "Silo: separate DB / infra per customer hospital\n— Strongest isolation, easiest BAA / data residency, expensive\nPool: one shared DB with tenant_id column on every row\n— Cheapest, hardest to isolate\nHybrid: pooled compute, siloed data — separate schemas or per-tenant DBs behind a shared app\nFor a healthcare product crossing dozens of hospitals with different BAAs and data residency rules, hybrid is the typical landing place",
+    "difficulty": "core",
+    "tags": ["multi-tenancy", "healthcare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-011",
+    "topic": "System Design",
+    "front": "Three pillars of observability — and how they differ.",
+    "back": "Logs: discrete events with timestamps and structured fields\n— Best for forensic 'what happened to this request?'\nMetrics: numeric time-series (counters, gauges, histograms)\n— Best for 'is the system healthy right now?' and alerting\nTraces: causal chain of spans across services for one request\n— Best for 'why was this request slow?'\nModern stack: OpenTelemetry SDKs → collector → backend (Datadog, Grafana, Honeycomb)\nAdd LLM-specific traces capturing prompt / response / cost",
+    "difficulty": "core",
+    "tags": ["observability", "logs", "metrics", "traces"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-012",
+    "topic": "System Design",
+    "front": "SLI vs SLO vs SLA vs error budget.",
+    "back": "SLI (Service Level Indicator): a measurement — e.g. p99 latency, success rate\nSLO (Service Level Objective): a target on the SLI — e.g. 99.9% of requests succeed monthly\nSLA (Service Level Agreement): a contract with consequences when missed\nError budget: 1 - SLO\n— Burn it early in the month, freeze risky deploys until reset\n— Lets eng + product trade reliability for velocity transparently",
+    "difficulty": "core",
+    "tags": ["SLO", "SLI", "reliability"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sys-013",
+    "topic": "System Design",
+    "front": "Rate limiting — algorithms in plain English.",
+    "back": "Token bucket: bucket fills at constant rate; each request takes a token\n— Allows bursts up to bucket size, then throttles\n— Most APIs (Stripe, AWS) use this\nLeaky bucket: requests drain at a fixed rate; overflow dropped or queued\n— Smoother, no bursts\nFixed vs sliding window: count requests per minute; sliding avoids boundary-crossing burst\nAlways: return 429 with Retry-After",
+    "difficulty": "stretch",
+    "tags": ["rate limiting"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sys-014",
+    "topic": "System Design",
+    "front": "How would you architect 'RSNA content embedded in Rad AI Reporting' end-to-end?",
+    "back": "Content pipeline:\n— Ingest journals + RadReport templates + ATLAS metadata\n— Hierarchical chunking, embed, hybrid index (vector + BM25)\n— Tag with RadLex / RadElement codes for filtering\nRetrieval API:\n— Takes clinical query (or active dictation context) + filters (modality, body part)\n— Returns top-k passages with citations\nInside Rad AI:\n— Rad AI calls API during dictation, receives passages\n— Optionally formatted with their LLM into a sidebar\nTelemetry:\n— Log retrieval + click + dwell + dismiss (no PHI in our logs)\nUpdate path:\n— Re-embed corpus when journals add issues\n— PCCP-style for any model updates\nMulti-tenant:\n— Pooled app, segregated audit logs by tenant",
+    "difficulty": "core",
+    "tags": ["architecture", "RAG", "Rad AI"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "data-001",
+    "topic": "Data & Cloud",
+    "front": "ETL vs ELT — what's the difference and why does it matter?",
+    "back": "ETL: Extract → Transform → Load (transform in a separate engine before loading)\n— Older pattern, predates cheap warehouse compute\nELT: Extract → Load → Transform (load raw, transform in the warehouse)\n— Modern default with Snowflake / BigQuery / Databricks\n— Faster iteration, raw data preserved, transforms versioned in SQL (dbt)\nHealthcare twist: PHI may need to be transformed (de-identified) before load — pushing back to ETL for that pipeline",
+    "difficulty": "core",
+    "tags": ["ETL", "ELT", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "data-002",
+    "topic": "Data & Cloud",
+    "front": "Data warehouse vs data lake vs lakehouse?",
+    "back": "Data warehouse: structured, schema-on-write, optimized for SQL analytics\n— Snowflake, BigQuery, Redshift, Synapse\nData lake: any format, schema-on-read, cheap object storage\n— S3, ADLS, GCS — raw / semi-structured / unstructured\nLakehouse: warehouse semantics on a lake substrate\n— Databricks (Delta), Iceberg, Hudi\n— Single source of truth for both BI and ML\nFor a content + AI product: lakehouse is the modern default",
+    "difficulty": "core",
+    "tags": ["warehouse", "lake", "lakehouse"],
+    "promptType": "compare"
+  },
+  {
+    "id": "data-003",
+    "topic": "Data & Cloud",
+    "front": "Why columnar formats (Parquet, ORC) for analytics?",
+    "back": "Columnar: data stored column-by-column instead of row-by-row\nWhy:\n— Compresses better (repeated values per column)\n— Reads only the columns you need\n— Vectorized query execution\nFormats: Parquet (most common), ORC (Hive-native), Avro (row-based, used for streaming)\nQuery engines: Presto, Trino, Spark, Athena, BigQuery — all native to columnar",
+    "difficulty": "stretch",
+    "tags": ["Parquet", "columnar"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-004",
+    "topic": "Data & Cloud",
+    "front": "Streaming vs batch — when do you use each?",
+    "back": "Batch: process N hours of data at once on a schedule\n— Higher throughput, simpler, lower cost\n— Good fit: nightly journal index refresh, analytics rollups\nStreaming: process events as they arrive\n— Low latency, harder to operate, exactly-once semantics are tricky\n— Good fit: real-time alerts, fraud detection, user activity feeds\nStack: Kafka / Kinesis (transport) + Flink / Spark Streaming (processing)\nMany teams start with batch; add streaming where latency demands it",
+    "difficulty": "core",
+    "tags": ["streaming", "batch", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "data-005",
+    "topic": "Data & Cloud",
+    "front": "What is CDC (Change Data Capture)?",
+    "back": "Stream changes (inserts, updates, deletes) from an OLTP database into downstream systems\nReads the DB's write-ahead log instead of querying\nPreserves order, exactly-once semantics with checkpoints\nTools: Debezium, Fivetran, AWS DMS\nUse cases: keep a warehouse fresh, populate an event stream, feed an audit log, sync to a search index\nFor RSNA: a way to pipe content updates from an editorial CMS into the vector DB",
+    "difficulty": "stretch",
+    "tags": ["CDC", "Debezium"],
+    "promptType": "definition"
+  },
+  {
+    "id": "data-006",
+    "topic": "Data & Cloud",
+    "front": "What is dbt and why has it become the default transform layer?",
+    "back": "Data Build Tool — version-controlled SQL transforms inside the warehouse\nKey ideas:\n— Tests on data quality (not_null, unique, accepted_values)\n— Lineage graph generated automatically\n— Documentation co-located with code\n— Modular models (one SELECT per file)\nMakes the warehouse a software-engineering artifact, not a Wild West of SQL\nFits ELT-style data stacks",
+    "difficulty": "core",
+    "tags": ["dbt", "transform"],
+    "promptType": "definition"
+  },
+  {
+    "id": "data-007",
+    "topic": "Data & Cloud",
+    "front": "Data quality — what dimensions matter?",
+    "back": "Accuracy: does it match reality?\nCompleteness: are required fields present?\nConsistency: same value across systems?\nFreshness: how recent is the data?\nUniqueness: any unintended duplicates?\nValidity: does it conform to schema / types?\nLineage: where did it come from? — auditable in regulated domains\nFor clinical data: completeness + freshness + lineage usually dominate audits",
+    "difficulty": "core",
+    "tags": ["data quality"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-008",
+    "topic": "Data & Cloud",
+    "front": "AWS HIPAA-eligible services — what does that mean?",
+    "back": "AWS publishes a list of HIPAA-eligible services; only those can store / process PHI\nYou must sign a BAA with AWS\nCommonly used: S3, EC2, RDS, Aurora, DynamoDB, Lambda, SQS, KMS, Bedrock (selected models)\nNon-eligible at given times: some preview / non-GA features, certain managed integrations\nAlways check the latest list before designing a PHI flow\nAzure and GCP have analogous BAA-eligible service lists",
+    "difficulty": "core",
+    "tags": ["AWS", "HIPAA", "BAA"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-009",
+    "topic": "Data & Cloud",
+    "front": "Azure healthcare services — what's relevant?",
+    "back": "Azure Health Data Services: managed FHIR API, DICOM service, MedTech (IoT for medical devices)\nAzure OpenAI: GPT-family models with BAA, regional deployments, no training on customer data\nAzure Cognitive Services: language, vision, document intelligence\nAzure Synapse / Fabric: warehouse + lakehouse\nMicrosoft is investing heavily in healthcare; Nuance acquisition makes Azure the home of PowerScribe + DAX",
+    "difficulty": "stretch",
+    "tags": ["Azure", "healthcare"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-010",
+    "topic": "Data & Cloud",
+    "front": "GCP Healthcare API — what's relevant?",
+    "back": "Cloud Healthcare API: managed FHIR stores, DICOM stores, HL7 v2 stores\nVertex AI: model training, deployment, RAG pipelines\nMed-PaLM and Med-Gemini are Google's healthcare-tuned LLMs (limited access)\nBigQuery: warehouse-native analytics on de-identified data\nLooker: BI on top\nLess penetrated in US hospitals than AWS / Azure but strong in research and academic medicine",
+    "difficulty": "stretch",
+    "tags": ["GCP", "healthcare"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-011",
+    "topic": "Data & Cloud",
+    "front": "AWS Well-Architected Framework — the 6 pillars.",
+    "back": "1) Operational Excellence — running and monitoring systems\n2) Security — protecting data, systems, identities\n3) Reliability — recovery, failure handling, scaling\n4) Performance Efficiency — using compute resources well\n5) Cost Optimization — avoiding unnecessary spend\n6) Sustainability — minimizing environmental impact\nUseful as a structured checklist for architecture reviews\nAzure and GCP have analogous frameworks",
+    "difficulty": "stretch",
+    "tags": ["Well-Architected", "AWS"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-012",
+    "topic": "Data & Cloud",
+    "front": "Serverless vs containers vs VMs — when do you pick each?",
+    "back": "VMs (EC2, Azure VM): full control of OS, persistent\n— Best for legacy workloads, GPU training, deep system access\nContainers (ECS, EKS, AKS, Cloud Run): packaged app + dependencies\n— Default for most modern services\nServerless (Lambda, Functions, Cloud Run): no infra to manage, pay per invocation\n— Best for event-driven, bursty, low-traffic workloads\n— Cold-start latency matters\nFor a content RAG API: containers (with autoscaling) is the typical sweet spot",
+    "difficulty": "core",
+    "tags": ["serverless", "containers", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "data-013",
+    "topic": "Data & Cloud",
+    "front": "Network isolation for healthcare — VPC, PrivateLink, VPC peering?",
+    "back": "VPC: virtual private cloud — your own isolated network in AWS / Azure / GCP\nPrivateLink (AWS) / Private Endpoint (Azure): connect to a managed service over private network, never traversing the public internet\nVPC peering: connect two VPCs, traffic stays on the cloud backbone\nCustomer-managed keys (KMS): you hold the keys; cloud never sees plaintext\nPHI flows almost always require: VPC + PrivateLink + KMS + audit logs",
+    "difficulty": "core",
+    "tags": ["VPC", "networking", "healthcare"],
+    "promptType": "concept"
+  },
+  {
+    "id": "data-014",
+    "topic": "Data & Cloud",
+    "front": "Why does Infrastructure as Code (IaC) matter for regulated software?",
+    "back": "IaC: define infra in version-controlled code (Terraform, Pulumi, CDK, Bicep)\nWhy regulated environments love it:\n— Auditable history of every change\n— Reproducible environments — staging mirrors prod\n— Drift detection — manual changes flagged\n— Code review applies to infra, not just app\n— Disaster recovery: rebuild the world from the repo\nFor SaMD: IaC integrates with design history files and audit trails",
+    "difficulty": "stretch",
+    "tags": ["IaC", "Terraform", "compliance"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "sec-001",
+    "topic": "Security & DevOps",
+    "front": "Encryption at rest vs in transit — and what makes them different?",
+    "back": "In transit: data moving over a network — TLS 1.2 / 1.3 (HTTPS, mTLS, FHIR endpoints, S3 calls)\nAt rest: data on disk\n— Disk-level: LUKS, EBS encryption\n— App-level: envelope encryption with KMS-managed data keys\nHealthcare must do both\nWhat audits care about: key rotation, KMS access logging, separation of duties between data engineers and key custodians",
+    "difficulty": "core",
+    "tags": ["encryption", "TLS"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sec-002",
+    "topic": "Security & DevOps",
+    "front": "OAuth 2.0 vs OIDC — what's the difference?",
+    "back": "OAuth 2.0: authorization — what can the app do?\n— Issues access tokens scoped to resources\nOIDC (OpenID Connect): OAuth + an authentication layer\n— Adds an ID token (JWT) describing who the user is\nSMART-on-FHIR uses OAuth flows with optional OIDC\nQuick mental model:\n— OAuth answers 'can this app read this patient's data?'\n— OIDC answers 'who is the user logged in?'",
+    "difficulty": "core",
+    "tags": ["OAuth", "OIDC", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sec-003",
+    "topic": "Security & DevOps",
+    "front": "JWT — what is it and what are the common pitfalls?",
+    "back": "JSON Web Token: base64url-encoded {header}.{payload}.{signature}\nHeader: algorithm (RS256, HS256)\nPayload: claims (sub, exp, iss, scopes, custom)\nSignature: proves issuer\nPitfalls:\n— 'alg: none' attack — always pin algorithm server-side\n— Long expiries make revocation painful — use short access tokens + refresh tokens\n— Don't put secrets in payload — it's signed, not encrypted\n— Validate iss, aud, exp on every request",
+    "difficulty": "core",
+    "tags": ["JWT", "auth"],
+    "promptType": "definition"
+  },
+  {
+    "id": "sec-004",
+    "topic": "Security & DevOps",
+    "front": "PHI handling — the principles you must demonstrate.",
+    "back": "Minimum necessary: only the data your feature needs\nLeast privilege: RBAC + ABAC\nDe-identification when possible: Safe Harbor 18 identifiers, or Expert Determination\nBAA before any vendor sees PHI\nEncryption at rest + in transit\nTamper-evident audit logs\nNo PHI in logs / metrics / LLM training data unless explicitly contracted\nBreach notification SLA per HHS rules\nAnnual risk analysis — ISO 27001 / HITRUST helps",
+    "difficulty": "core",
+    "tags": ["PHI", "HIPAA"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sec-005",
+    "topic": "Security & DevOps",
+    "front": "OWASP Top 10 highlights every PM should recognize.",
+    "back": "Broken access control (most common)\nCryptographic failures\nInjection (SQL, NoSQL, LLM prompt injection)\nInsecure design\nSecurity misconfiguration\nVulnerable / outdated components — SBOM matters\nIdentification & auth failures\nSoftware & data integrity failures\nLogging & monitoring failures\nServer-Side Request Forgery (SSRF)\nYou don't need to remediate them — you need to know they exist and ensure your team has a process",
+    "difficulty": "stretch",
+    "tags": ["OWASP", "security"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sec-006",
+    "topic": "Security & DevOps",
+    "front": "What's an SBOM and why does FDA care?",
+    "back": "Software Bill of Materials: machine-readable inventory of every library / dependency in your build\nFields: name, version, license, hash\nStandards: SPDX, CycloneDX\nFDA's Sept 2023 cybersecurity guidance for medical devices requires SBOMs in premarket submissions\nLets you respond fast to a Log4j-style vulnerability:\n— Query 'do any shipped devices include log4j-core 2.x?'\n— Get an answer in seconds",
+    "difficulty": "stretch",
+    "tags": ["SBOM", "FDA", "cybersecurity"],
+    "promptType": "definition"
+  },
+  {
+    "id": "sec-007",
+    "topic": "Security & DevOps",
+    "front": "CI/CD pipeline anatomy.",
+    "back": "Source: git push\n→ CI build: compile, lint, type-check, unit tests\n→ Security scans: SAST, SCA, secrets, container scan\n→ Integration tests\n→ Staging deploy\n→ Smoke tests\n→ Manual approval gate (for healthcare / regulated)\n→ Production deploy: canary or blue-green\n→ Post-deploy verification\n→ Rollback hook on SLO breach\nFor SaMD: every prod deploy needs a documented design history file entry",
+    "difficulty": "core",
+    "tags": ["CI/CD", "deploys"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sec-008",
+    "topic": "Security & DevOps",
+    "front": "Blue/green vs canary vs rolling deploys.",
+    "back": "Blue/green: full duplicate environment, switch all traffic with one DNS / LB flip\n— Instant rollback, but 2x infra (expensive)\nCanary: route 1% → 5% → 25% → 100% to new version, watching SLOs at each step\n— Best for risk reduction, what most modern teams use\nRolling: replace instances one at a time\n— Cheapest, slowest rollback\nFor a clinical AI feature, canary with strict SLO gating is standard",
+    "difficulty": "core",
+    "tags": ["deploys", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "sec-009",
+    "topic": "Security & DevOps",
+    "front": "Feature flags — why every PM should know them cold.",
+    "back": "Decouple deploy from release\nWrap new code paths in 'if flag.enabled(user)'\nLets you:\n— Ship dark, dogfood internally\n— Beta with named hospitals\n— A/B test\n— Percentage rollout\n— Kill switch on incident\n— Geo-target, license-tier-gate\nTools: LaunchDarkly, Statsig, Optimizely, OpenFeature spec\nTech debt risk: stale flags accumulate — schedule cleanup\nFor regulated AI: flag turns are audit events",
+    "difficulty": "core",
+    "tags": ["feature flags"],
+    "promptType": "concept"
+  },
+  {
+    "id": "sec-010",
+    "topic": "Security & DevOps",
+    "front": "Incident response — what good looks like.",
+    "back": "Severity levels (SEV1–SEV4) with clear examples\nOn-call rotation with paging\nIncident commander role separate from responders\nReal-time comms channel + status page\nCustomer comms via predefined templates\nTime-bounded SLA per SEV\nBlameless postmortem within 5 days: timeline, root cause, action items with owners + dates, lessons\nTrack action-item completion rate as a leading indicator of reliability culture",
+    "difficulty": "core",
+    "tags": ["incidents", "postmortem"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "reg-001",
+    "topic": "Regulatory",
+    "front": "What is SaMD?",
+    "back": "Software as a Medical Device — IMDRF framing recognized by FDA\nSoftware intended for medical purposes that performs them without being part of a hardware device\nRisk-classified by intended use + healthcare situation severity",
+    "sourceSection": "5a / 9",
+    "difficulty": "core",
+    "tags": ["SaMD", "FDA"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-002",
+    "topic": "Regulatory",
+    "front": "510(k) vs De Novo vs PMA — when do you use each?",
+    "back": "510(k): substantial equivalence to a predicate device\n— Most common, fastest\nDe Novo: novel low-to-moderate-risk device with no predicate\nPMA: highest-risk Class III devices\n— Requires clinical data\n— Most expensive and longest pathway",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "core",
+    "tags": ["FDA", "pathways", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "reg-003",
+    "topic": "Regulatory",
+    "front": "What is IEC 62304?",
+    "back": "Medical device software lifecycle standard\nClassifies software safety:\n— Class A: no injury possible\n— Class B: non-serious injury possible\n— Class C: serious injury or death possible\nDrives the rigor of design, testing, and risk management activities",
+    "sourceSection": "5a / 9",
+    "difficulty": "core",
+    "tags": ["IEC 62304"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-004",
+    "topic": "Regulatory",
+    "front": "What is ISO 14971?",
+    "back": "Medical device risk management standard\nIdentifies failure modes\nQuantifies severity × probability matrices\nDrives design controls and post-market surveillance",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "core",
+    "tags": ["ISO 14971"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-005",
+    "topic": "Regulatory",
+    "front": "What is QMSR — and when does it take effect?",
+    "back": "Quality Management System Regulation — FDA's new QMS rule\nReplaces 21 CFR 820 in February 2026\nHarmonized with ISO 13485\nWorld's medical device QMS standards now align",
+    "sourceSection": "5a / 9",
+    "difficulty": "core",
+    "tags": ["QMSR", "ISO 13485"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-006",
+    "topic": "Regulatory",
+    "front": "What is a PCCP?",
+    "back": "Predetermined Change Control Plan — FDA mechanism for AI updates\nPre-specifies which model updates can roll out without resubmitting for clearance\nThe pragmatic way to ship continuously improving AI in a regulated workflow",
+    "sourceSection": "3 / 9",
+    "difficulty": "core",
+    "tags": ["PCCP", "AI", "FDA"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-007",
+    "topic": "Regulatory",
+    "front": "What is GMLP?",
+    "back": "Good Machine Learning Practice\nJoint FDA, Health Canada, and MHRA guiding principles for ML-enabled medical devices\nCovers data quality, model evaluation, transparency, monitoring, human-AI teaming",
+    "sourceSection": "3 / 9",
+    "difficulty": "core",
+    "tags": ["GMLP"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-008",
+    "topic": "Regulatory",
+    "front": "What's the CDS carve-out — and why does it matter for RSNA Ventures?",
+    "back": "Clinical Decision Support has a regulatory carve-out from SaMD if it:\n— Doesn't analyze images directly\n— Is transparent to the clinician (sources / reasoning visible)\n— The clinician can independently review\nMost RSNA content-delivery products will likely live in this carve-out\nKnow exactly when the line crosses into SaMD",
+    "sourceSection": "3. AI in Radiology",
+    "difficulty": "core",
+    "tags": ["CDS", "SaMD"],
+    "promptType": "concept"
+  },
+  {
+    "id": "reg-009",
+    "topic": "Regulatory",
+    "front": "Analytical vs clinical validation vs clinical utility?",
+    "back": "Analytical validation: does the algorithm match ground truth on test data?\nClinical validation: does using it change patient outcomes?\nClinical utility: is the outcome change worth the cost / workflow disruption?\nAll three are needed; many AI products only show analytical",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "core",
+    "tags": ["validation", "compare"],
+    "promptType": "compare"
+  },
+  {
+    "id": "reg-010",
+    "topic": "Regulatory",
+    "front": "HIPAA basics — PHI, BAA, de-identification?",
+    "back": "PHI: Protected Health Information\nBAA: Business Associate Agreement — required with any partner that touches PHI\nDe-identification:\n— Safe Harbor: remove the 18 listed identifiers\n— Expert Determination: statistical method",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "core",
+    "tags": ["HIPAA", "privacy"],
+    "promptType": "definition"
+  },
+  {
+    "id": "reg-011",
+    "topic": "Regulatory",
+    "front": "Design Controls — the V-model in one line.",
+    "back": "Design Inputs → Design Outputs → Verification → Validation → Design Transfer\nEach step has documented evidence\nThe spine of FDA design history files\nHow Dexcom shipped G6 / G7",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "stretch",
+    "tags": ["design controls"],
+    "promptType": "concept"
+  },
+  {
+    "id": "reg-012",
+    "topic": "Regulatory",
+    "front": "AI-specific reimbursement codes — name two examples.",
+    "back": "0623T: AI-assisted CT lung nodule analysis\n+0775T: AI stroke detection\nLevers for hospital reimbursement of AI:\n— NTAP (New Technology Add-on Payment)\n— TPT (Transitional Pass-Through Payment)",
+    "sourceSection": "5a. Healthcare PM",
+    "difficulty": "stretch",
+    "tags": ["reimbursement", "CPT"],
+    "promptType": "definition"
+  },
+
+  {
+    "id": "pm-001",
+    "topic": "PM Frameworks",
+    "front": "JTBD — write a Jobs-to-be-Done statement template.",
+    "back": "Template: When [situation], [persona] wants to [motivation], so they can [outcome]\nExample: When a radiologist is dictating a complex case, they want to surface evidence-based references quickly, so they can produce a confident, citable impression without breaking flow",
+    "sourceSection": "5c. PM Craft",
+    "difficulty": "core",
+    "tags": ["JTBD", "discovery"],
+    "promptType": "definition"
+  },
+  {
+    "id": "pm-002",
+    "topic": "PM Frameworks",
+    "front": "What is an Opportunity Solution Tree?",
+    "back": "Teresa Torres' framework\nStructure: outcome at top → opportunities (customer needs / pain points) → solutions → experiments\nForces comparison of solutions against the same opportunity\nPrevents bolting solutions onto the roadmap one at a time",
+    "sourceSection": "5c. PM Craft",
+    "difficulty": "core",
+    "tags": ["discovery", "framework"],
+    "promptType": "definition"
+  },
+  {
+    "id": "pm-003",
+    "topic": "PM Frameworks",
+    "front": "PRD anatomy — name the 7 sections.",
+    "back": "1) Problem statement / JTBD\n2) Success metrics\n3) Scope (in / out, MVP cuts)\n4) User flows / requirements\n5) Risks & dependencies\n6) Rollout plan\n7) Post-launch eval — week 1, month 1, quarter 1, with kill criteria",
+    "sourceSection": "5c. PM Craft",
+    "difficulty": "core",
+    "tags": ["PRD"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-004",
+    "topic": "PM Frameworks",
+    "front": "How do you write a PRD specifically for an AI-enabled product?",
+    "back": "Standard PRD plus:\n— AI choices made and why (model selection, RAG vs fine-tune, eval approach)\n— Risks across clinical / regulatory / technical / partner / commercial with mitigations\n— Beta cohort + success criteria for GA + kill criteria\n— Post-launch eval cadence (week 1 / month 1 / quarter 1)",
+    "sourceSection": "6b. Strategy",
+    "difficulty": "core",
+    "tags": ["PRD", "AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-005",
+    "topic": "PM Frameworks",
+    "front": "What is a Riskiest Assumption Test (RAT)?",
+    "back": "0→1 pattern\nIdentify the single assumption that, if false, kills the idea\nDesign the cheapest experiment that tests it\nFake-door, smoke test, Wizard of Oz, signed LOI — whatever proves or disproves it before you build",
+    "sourceSection": "5c. PM Craft",
+    "difficulty": "core",
+    "tags": ["0 to 1", "discovery"],
+    "promptType": "definition"
+  },
+  {
+    "id": "pm-006",
+    "topic": "PM Frameworks",
+    "front": "First 90 days as a manager — how do you structure it?",
+    "back": "0–30: Listen\n— 1:1s with each direct, peers, key partners\n— Understand what works and what doesn't; no big changes\n30–60: Diagnose\n— 2-3 themes (process, talent, prioritization)\n— One visible early win\n60–90: Decide\n— Set the operating model\n— Publish team OKRs\n— Establish growth plans for each direct",
+    "sourceSection": "5d. People Mgmt",
+    "difficulty": "core",
+    "tags": ["management", "90 day plan"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-007",
+    "topic": "PM Frameworks",
+    "front": "Vendor / partner management — the operating playbook.",
+    "back": "Joint roadmap doc with shared milestones\nRACI for cross-org decisions\nJoint steering committee + working-team cadences\nJoint success metrics — engagement / revenue, not just 'we shipped'\nClean commercials: customer ownership, revenue booking, support\nCo-marketing tied to milestones — RSNA booth, press release, panel",
+    "sourceSection": "5e. Stakeholder",
+    "difficulty": "core",
+    "tags": ["partners", "Rad AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-008",
+    "topic": "PM Frameworks",
+    "front": "Situational Leadership: tell vs sell vs consult vs delegate?",
+    "back": "Tell: new hire or clear failure mode (high direction, low support)\nSell: resistance or skepticism (high direction, high support)\nConsult: developing IC (low direction, high support)\nDelegate: mature IC (low direction, low support)\nMatch the style to where the person is, not where you'd prefer to be",
+    "sourceSection": "5d. People Mgmt",
+    "difficulty": "stretch",
+    "tags": ["coaching", "management"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "iv-001",
+    "topic": "Interview Answers",
+    "front": "STAR — 'Tell me about leading through ambiguity.'",
+    "back": "S/T: Sony AITRIOS edge-AI platform\n— Startup-style env, compressed delivery windows\n— Partners: Microsoft Azure OpenAI, Avanade\n— Customers: Chipotle, Loblaw, 7-Eleven\nA: Spearheaded end-to-end execution\n— Daily standups\n— User stories + acceptance criteria in Jira\n— Per-customer MVP scoping\n— WBS in Smartsheet\n— Reporting dashboards on AI-pipeline readiness, partner deliverables, customer-eval milestones\n— CRISP-DM for the AI lifecycle\nR: ~25% throughput improvement\n— Multiple working integrated PoCs\n— AITRIOS adoption supported across retail / supply chain / Industry 4.0\nBridge to RSNA: 'mirrors the Ventures operating model — startup agility inside a larger org'",
+    "sourceSection": "6a. Behavioral",
+    "difficulty": "core",
+    "tags": ["STAR", "Sony", "ambiguity"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-002",
+    "topic": "Interview Answers",
+    "front": "STAR — 'Tell me about influencing without authority.'",
+    "back": "S/T: Dexcom — coordinating Reg, Quality, Engineering (firmware, hardware, mobile, wearable, cloud), Clinical, UX, Marketing, Commercial, Customer Support\nAcross every FDA-regulated release\nA: Drove cross-functional alignment\n— PRDs as the single source of truth\n— Partnered early on design controls + risk management\n— Owned the launch-readiness scorecard across all functions\nR: G6 and G7 CGM through FDA 510(k) and post-market\n— Flagship offerings tied to Dexcom's growth to ~$45B market valuation\n— ~1M MAU globally",
+    "sourceSection": "6a. Behavioral",
+    "difficulty": "core",
+    "tags": ["STAR", "Dexcom", "influence"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-003",
+    "topic": "Interview Answers",
+    "front": "How would you prioritize the next product after the Rad AI partnership?",
+    "back": "Three layers:\nCustomer outcome — what JTBD next? Knowledge at point of care, peer benchmarking, structured-reporting auto-population, international workflow?\nStrategic fit for RSNA — leverages content + standards moat, scales membership relevance?\nCommercial fit for Ventures — partner-led vs build vs invest, B2B2C vs direct, revenue model (license, subscription, royalty, sponsorship)\nThen: 2-3 candidate bets, riskiest assumption for each, propose a 6-week discovery sprint on the top bet",
+    "sourceSection": "6b. Strategy",
+    "difficulty": "core",
+    "tags": ["strategy", "prioritization"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-004",
+    "topic": "Interview Answers",
+    "front": "How would you measure success for the Rad AI partnership?",
+    "back": "Adoption: % of Rad AI Reporting users viewing RSNA-sourced content; sessions / user / week\nEngagement quality: dwell time, citation click-through, useful-content rating\nWorkflow impact: reduces time-to-sign-off? reduces edits to AI-drafted impressions?\nClinical: does surfaced content change the report (caught a missed differential, added a citation)?\nStrategic: RSNA brand reach via Rad AI install base; member acquisition / retention lift; partner-attributed revenue\nPartner health: joint NPS, support ticket volume, joint pipeline",
+    "sourceSection": "6b. Strategy",
+    "difficulty": "core",
+    "tags": ["metrics", "Rad AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-005",
+    "topic": "Interview Answers",
+    "front": "Curveball — 'A senior radiologist on the Board says your product feels untrustworthy. What do you do?'",
+    "back": "Listen first — what specifically erodes trust? (Source attribution? Hallucination? Privacy? Workflow disruption?)\nMap their concern to product levers:\n— Citations\n— Confidence scoring\n— Opt-in vs default-on\n— Transparent model cards via ATLAS\n— Human-in-loop review\n— Audit logs\nPropose a small time-boxed pilot at the Board liaison's home institution with shared success metrics\nFrame: 'Your trust is the product. If we can't earn it from RSNA's leaders, we can't earn it from the field.'",
+    "sourceSection": "6e. Curveball",
+    "difficulty": "core",
+    "tags": ["scenario", "trust"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-006",
+    "topic": "Interview Answers",
+    "front": "Curveball — 'Eng says the AI eval will take 6 weeks. Launch is in 4. What do you do?'",
+    "back": "Don't shortcut clinical safety\nThree levers to evaluate together:\n— Reduce scope: smaller, lower-risk subset launch\n— Parallelize eval: more expert reviewers, automated harness\n— Move launch: co-author a revised joint plan with partners\nSurface to leadership early\nWorst answer: 'We hit the date but the eval was incomplete.'",
+    "sourceSection": "6e. Curveball",
+    "difficulty": "core",
+    "tags": ["scenario", "launch"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-007",
+    "topic": "Interview Answers",
+    "front": "Your strongest regulated-healthcare story?",
+    "back": "Dexcom: FDA-cleared Class II SaMD portfolio (G6, G7)\n— 510(k), design controls, risk management\n— Aligned across Reg / Quality / Engineering / Clinical / UX / Marketing / Commercial\n~1M paying patients globally\nTied to the company's growth to a ~$45B market valuation",
+    "sourceSection": "6a. Behavioral",
+    "difficulty": "core",
+    "tags": ["Dexcom", "STAR"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-008",
+    "topic": "Interview Answers",
+    "front": "Your day-of opening — first 60 seconds.",
+    "back": "'Thanks for the time. I'm coming in excited because there's a clean overlap between what RSNA Ventures is building — taking trusted, peer-reviewed content to the point of care — and what I've spent the last decade doing: shipping external, customer-facing healthcare and AI products end-to-end.\nAt Dexcom that meant FDA-cleared SaMD reaching about a million patients.\nAt Sony AITRIOS it meant standing up a startup-style AI delivery model with partners like Microsoft and Avanade.\nI'd love to dig into where Point of Care goes next.'",
+    "sourceSection": "8. Logistics",
+    "difficulty": "core",
+    "tags": ["opening"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-009",
+    "topic": "Interview Answers",
+    "front": "How do you onboard a new direct report?",
+    "back": "0-30 / 30-60 / 60-90 framework\nWeekly 1:1s (30 min, IC owns the agenda)\nBi-weekly career conversations or rolling growth plans\nQuarterly performance check-ins\nStart from their stated growth goals + a clear scope ramp\nMatch coaching style (Tell / Sell / Consult / Delegate) to where they are",
+    "sourceSection": "6d. People",
+    "difficulty": "core",
+    "tags": ["management", "onboarding"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-010",
+    "topic": "Interview Answers",
+    "front": "How do you build a team roadmap with 2 PMs and 4 product lines?",
+    "back": "Reduce surface area: 1-2 bets per quarter per PM, kill the rest until capacity opens\nPair PMs with stakeholders, not products, so context compounds\nUse shared rituals (joint reviews, joint discovery) to keep the team operating as a unit, not silos",
+    "sourceSection": "6d. People",
+    "difficulty": "core",
+    "tags": ["management", "roadmap"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-011",
+    "topic": "Interview Answers",
+    "front": "TECH — 'Walk me through how you'd architect content embedding into Rad AI's workflow.'",
+    "back": "Three layers:\nContent pipeline\n— Ingest RSNA journals + RadReport + ATLAS\n— Hierarchical chunking, hybrid index (dense + BM25)\n— Tagged with RadLex / RadElement codes for filtering\nRetrieval API\n— Scoped endpoint for Rad AI: takes dictation context + filters, returns top-k passages with citations + confidence\n— No PHI flows back to us; only opaque session IDs\nEmbedded UX\n— Rad AI renders results as a sidebar / inline suggestion\nTelemetry: log dwell, click, dismiss; weekly content-team review of low-engagement passages\nUpdate path: PCCP for any retrieval-model change; corpus refresh on each journal issue",
+    "difficulty": "core",
+    "tags": ["STAR", "architecture", "Rad AI"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-012",
+    "topic": "Interview Answers",
+    "front": "TECH — 'How do you handle PHI flowing through a third-party LLM?'",
+    "back": "Default: don't send PHI\n— Most clinical RAG products only need de-identified clinical content + a non-PHI query (modality, body part, finding type)\nWhen PHI is unavoidable:\n— BAA with the LLM vendor — only OpenAI Enterprise, Azure OpenAI, AWS Bedrock, Anthropic via specific contracts qualify\n— PHI redaction at the edge before the call\n— Disable training-data retention; request zero-retention API mode\n— Encrypted prompt logs with strict access\n— Document the data flow in your DPIA / risk file\n— Prefer on-prem or VPC-isolated open models for true PHI cases",
+    "difficulty": "core",
+    "tags": ["STAR", "PHI", "LLM"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-013",
+    "topic": "Interview Answers",
+    "front": "TECH — 'How do you measure success of a RAG-based clinical product?'",
+    "back": "Layered:\nRetrieval quality: recall@k, MRR, citation accuracy on a clinician-built golden set\nGeneration quality: faithfulness, answer relevance, hallucination rate, refusal-when-uncertain rate\nWorkflow impact: time-to-sign-off, edits-per-impression, follow-up compliance\nEngagement: sessions / user / week, content-rated-useful, citation click-through\nClinical: reader-study evidence that surfaced content changes the report or catches a missed finding\nBusiness: partner-attributed ARR, NRR, retention\nEval pipeline runs on every model / prompt change; clinician-panel review monthly",
+    "difficulty": "core",
+    "tags": ["metrics", "evaluation", "RAG"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-014",
+    "topic": "Interview Answers",
+    "front": "TECH — 'Build vs buy a vector database. How do you decide?'",
+    "back": "Buy (managed: Pinecone, Weaviate Cloud) when:\n— Team is small\n— Time-to-market matters\n— Scale is uncertain\nBuild / self-host (pgvector, Qdrant on K8s) when:\n— Data residency / BAA constraints\n— Deeply integrated with existing Postgres\n— Cost at scale\n— Custom hybrid retrieval needs\nPragmatic default for an early-stage RSNA Ventures product:\n— pgvector inside an existing Postgres until ~10M vectors or multi-region needs — then revisit\nDecision framework: cost + control + capability + speed",
+    "difficulty": "core",
+    "tags": ["build vs buy", "vector DB"],
+    "promptType": "concept"
+  },
+  {
+    "id": "iv-015",
+    "topic": "Interview Answers",
+    "front": "TECH — 'Tell me about a time you pushed back on a technical decision.'",
+    "back": "Frame:\n1) The proposed approach + why eng favored it\n2) Your concern, grounded in product / customer / risk evidence (not opinion)\n3) Reframed the conversation — shifting from 'engineering preference' to 'measurable outcome' (latency, cost, hallucination rate, reg risk)\n4) The compromise / pivot you landed on\n5) The outcome — measurable\nNarrative arc: respect the engineer's expertise, hold the ground when product / customer evidence calls for it, document the decision so it's not relitigated",
+    "difficulty": "core",
+    "tags": ["STAR", "influence", "engineering"],
+    "promptType": "star"
+  },
+  {
+    "id": "iv-016",
+    "topic": "Interview Answers",
+    "front": "TECH — 'How do you have productive technical disagreements with engineers?'",
+    "back": "Get curious before defensive — ask 'what's the constraint that led you here?'\nMake it about the user, not the architecture — 'help me understand what the radiologist will experience'\nBring evidence: data, customer quotes, competitive context, regulatory text\nTrade scope, not principles — 'what's the smallest version that proves this?'\nDisagree and commit when you've made the case and lost — and be honest in the postmortem\nDon't relitigate quietly; raise concerns explicitly\nEngineers respect PMs who own technical context and don't hide",
+    "difficulty": "core",
+    "tags": ["management", "engineering"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "neg-001",
+    "topic": "Negotiation & Offer",
+    "front": "Total compensation anatomy — what to ask about (and in what order)?",
+    "back": "Base salary\nAnnual bonus / target bonus % + payout history\nLong-term incentive (rare in non-profit / RSNA Ventures — but ask)\nSigning bonus\nRelocation\nRetirement: 401(k) / 403(b) match + vesting; pension if any\nHealth + dental + vision + disability + life\nPaid time off, sick, parental leave, sabbatical\nProfessional development budget\nWFH stipend, equipment, conference travel\nAsk for the full package in writing before counter-negotiating",
+    "difficulty": "core",
+    "tags": ["comp", "offer"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-002",
+    "topic": "Negotiation & Offer",
+    "front": "Don't give the first number — why does anchoring matter?",
+    "back": "Anchoring: the first number stated dominates the rest of the negotiation\nWhoever names a number first sets the reference point\nIf you give a low number, you've capped yourself\nIf you give a high number that they can't meet, you risk withdrawal\nResponse to 'what are your salary expectations?':\n— 'I'd love to learn more about the scope before naming a number — based on my Dexcom and Sony scope, I'd expect to be in the upper range of the band you have for this role.'\nMake them go first when you can",
+    "difficulty": "core",
+    "tags": ["anchoring", "negotiation"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-003",
+    "topic": "Negotiation & Offer",
+    "front": "Public band $145–165K — how do you use it without quoting it?",
+    "back": "You know the band; don't reveal that you do\nLet them surface a number first; if asked, anchor on scope:\n— 'Given the Senior PM + Team Lead scope, multiple product lines, and the people management piece, I'm targeting the upper end of comparable PM-Lead bands — roughly $160-175K base + standard benefits.'\nIf they offer mid-band ($155K), counter to top of band ($165K) plus signing bonus\nNever quote the public band back at them — looks transactional",
+    "difficulty": "core",
+    "tags": ["band", "RSNA"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-004",
+    "topic": "Negotiation & Offer",
+    "front": "Counter-range strategy for this role.",
+    "back": "Anchor: $160–175K base + comprehensive benefits\nDefensible because:\n— Dexcom FDA-cleared SaMD scope — directly transferable\n— Sony AITRIOS startup-style AI delivery — exactly the operating model Ventures is building\n— ServiceNow + UMPG SaaS / B2B revenue scope\n— People management + partner / vendor management both required for the role\nFlex levers if base hits ceiling:\n— Signing bonus\n— Relocation (even if remote)\n— Retention bonus at year 1\n— Extra PTO\n— Earlier review cycle",
+    "difficulty": "core",
+    "tags": ["counter", "RSNA"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-005",
+    "topic": "Negotiation & Offer",
+    "front": "Signing bonus and relocation — when to push for them?",
+    "back": "Signing bonus: covers the gap when base / bonus won't move\n— Typical range: $10–25K for this band; sometimes higher\n— Often paid in two tranches with clawback if you leave inside 12 months\nRelocation: even for remote roles, some employers offer one-time stipend for moving to be near HQ or to attend kickoffs\nPush both when:\n— Base is at the ceiling of their band\n— You're leaving equity / bonus at current employer\n— Start date requires you to wind down current obligations\nThese are easier yeses than base because they're one-time, not annual",
+    "difficulty": "core",
+    "tags": ["signing", "relo"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-006",
+    "topic": "Negotiation & Offer",
+    "front": "Soft levers — what's actually negotiable beyond base?",
+    "back": "Vacation days / PTO — often easier than base\nWork setup: home office stipend, equipment refresh\nStart date — buy yourself rest between jobs\nReview cycle — 'can my first review be at 6 months instead of 12?'\nProfessional development budget\nConference attendance (RSNA Annual Meeting attendance is a no-brainer ask)\nFlexible hours / 4-day week / partial remote if hybrid\nDirect-report scope — 'will I have a 3rd PM by month 6?'\nMost are zero-budget for the employer and high-value for you",
+    "difficulty": "core",
+    "tags": ["soft levers"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-007",
+    "topic": "Negotiation & Offer",
+    "front": "What is BATNA and why does it change how you negotiate?",
+    "back": "BATNA: Best Alternative To a Negotiated Agreement\n— What you'll do if this offer falls through\n— Could be: stay at current role, take competing offer, take time off, consult\nIf BATNA is strong: you can hold firm, walk away if needed\nIf BATNA is weak: don't bluff — you'll lose\nMake your BATNA stronger before you negotiate:\n— Run the process at 2-3 places at once\n— Have a clear walkaway number\n— Know the cost of staying where you are",
+    "difficulty": "core",
+    "tags": ["BATNA"],
+    "promptType": "definition"
+  },
+  {
+    "id": "neg-008",
+    "topic": "Negotiation & Offer",
+    "front": "When the offer comes — the 24-hour rule.",
+    "back": "Don't accept verbally on the spot\nResponse: 'I'm really excited. Can you send me the full written offer? I'll review and get back to you within 24-48 hours with any questions.'\nWhy:\n— Buys time to think clearly\n— Lets you read the fine print (clawbacks, non-compete, IP assignment)\n— Lets other processes finalize if you're running multiple\n— Signals professionalism, not desperation\nA real employer will not pull an offer because you took 48 hours\nIf they pressure-close, that's a yellow flag about the culture",
+    "difficulty": "core",
+    "tags": ["timing", "tactics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-009",
+    "topic": "Negotiation & Offer",
+    "front": "Multiple offers — how to use them without lying?",
+    "back": "Truthful framing only: never invent an offer\nIf you have one: 'I'm in late stages with another company. I'd genuinely prefer this role, and competitive comp would close it.'\nIf you don't have one: don't pretend you do\nNever name the other company unless asked and you're comfortable\nNever name the other comp number unless they ask\nLeverage isn't the offer letter — it's their perception that you have options\nLying gets caught and burns the bridge",
+    "difficulty": "core",
+    "tags": ["multiple offers", "ethics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-010",
+    "topic": "Negotiation & Offer",
+    "front": "How do you ask for more without sounding ungrateful?",
+    "back": "Lead with enthusiasm: 'I'm really excited about this role and the team.'\nAnchor on scope, not desire: 'Given the people-management piece and the cross-org partner scope, I was anchoring on closer to $X.'\nMake it collaborative, not adversarial: 'Is there flexibility on base? If not, would a signing bonus or earlier review get us closer?'\nAsk specifically — vague asks get vague answers\nAlways frame the ask in terms of fit and value, not need\nClose with: 'If we can land here, I'm ready to sign.'",
+    "difficulty": "core",
+    "tags": ["framing", "tactics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-011",
+    "topic": "Negotiation & Offer",
+    "front": "Accepting language — the 'I'm in' email.",
+    "back": "After verbal agreement, send confirmation in writing within 24 hours\nKey elements:\n— Restate the agreed terms (base, bonus target, signing, start date)\n— Express enthusiasm for the role and mission\n— Confirm next steps (offer letter, background check, reference checks)\n— Provide a clean signature\nExample: 'Hi [name], thank you again for the offer. I'm thrilled to confirm I'll join RSNA Ventures as Assistant Director, Point of Care, starting [date], at $X base + $Y signing. I'll watch for the formal offer letter — happy to move on background and references whenever you're ready.'",
+    "difficulty": "core",
+    "tags": ["acceptance", "email"],
+    "promptType": "concept"
+  },
+  {
+    "id": "neg-012",
+    "topic": "Negotiation & Offer",
+    "front": "Common negotiation mistakes — what to avoid.",
+    "back": "Accepting verbally before seeing the full written package\nNaming a number first when you don't have to\nMaking it personal — comparing yourself to others or talking about cost of living\nNegotiating tiny soft items endlessly — 1-2 levers max, not 8\nPressure-selling: 'I have an exploding offer Friday' — burns goodwill\nAccepting without confirming title, scope, and reporting chain in writing\nBurning the bridge at your current employer — give graceful notice, no public victory laps",
+    "difficulty": "core",
+    "tags": ["mistakes"],
+    "promptType": "concept"
+  },
+
+  {
+    "id": "q-001",
+    "topic": "Questions to Ask",
+    "front": "Question to ask — about the role.",
+    "back": "'Can you walk me through how the Point of Care product line fits into the broader RSNA Ventures portfolio over the next 12-24 months — and what success looks like for this role at the 6-month and 12-month mark?'",
+    "sourceSection": "7. Questions",
+    "difficulty": "core",
+    "tags": ["question", "role"],
+    "promptType": "question"
+  },
+  {
+    "id": "q-002",
+    "topic": "Questions to Ask",
+    "front": "Question to ask — about strategy.",
+    "back": "'The Rad AI partnership is the first marquee deal. What was the framework that led to picking Rad AI over other partners, and how should that framework apply to the next bet? How does Ventures think about build vs partner vs invest?'",
+    "sourceSection": "7. Questions",
+    "difficulty": "core",
+    "tags": ["question", "strategy"],
+    "promptType": "question"
+  },
+  {
+    "id": "q-003",
+    "topic": "Questions to Ask",
+    "front": "Question to ask — about measurement.",
+    "back": "'How are you measuring success of the Rad AI partnership today, and what would make you decide to expand or pull back?\nWhere do you see the line between RSNA's editorial / peer-review standards and the speed needed to ship a software product?'",
+    "sourceSection": "7. Questions",
+    "difficulty": "core",
+    "tags": ["question", "metrics"],
+    "promptType": "question"
+  },
+  {
+    "id": "q-004",
+    "topic": "Questions to Ask",
+    "front": "Question to ask — about the org.",
+    "back": "'What's the operating cadence between Ventures and the parent RSNA — how do decisions get made when they need to involve Board liaisons like Dr. Flanders?\nRSNA Ventures is brand new — what's been the biggest cultural learning so far in standing up a startup-style group inside a 110-year non-profit?'",
+    "sourceSection": "7. Questions",
+    "difficulty": "core",
+    "tags": ["question", "org"],
+    "promptType": "question"
+  },
+  {
+    "id": "q-005",
+    "topic": "Questions to Ask",
+    "front": "Question to ask — about international.",
+    "back": "'How does RSNA's international footprint (160+ countries) shape product priorities — do you build with US workflows first and adapt, or design for global from day one?\nAnd what's the relationship between Ventures' commercial work and the standards groups (RadElement, ATLAS, RadLex) — are they upstream / downstream or genuinely paired?'",
+    "sourceSection": "7. Questions",
+    "difficulty": "stretch",
+    "tags": ["question", "international"],
+    "promptType": "question"
+  },
+  {
+    "id": "q-006",
+    "topic": "Questions to Ask",
+    "front": "Strong closing question.",
+    "back": "'Based on what we've discussed, do you have any reservations about my fit that I can address now?'\nSurfaces objections while you're still in the room\nGives you one last shot to clarify",
+    "sourceSection": "7. Questions",
+    "difficulty": "core",
+    "tags": ["question", "closing"],
+    "promptType": "question"
+  }
+]

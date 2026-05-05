@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#142850"/>
+  <g transform="translate(32 32)">
+    <rect x="-22" y="-15" width="40" height="26" rx="3" fill="#f5e9d4" opacity="0.55" transform="rotate(-10)"/>
+    <rect x="-19" y="-13" width="40" height="26" rx="3" fill="#f5e9d4" opacity="0.85" transform="rotate(6)"/>
+    <rect x="-20" y="-14" width="40" height="26" rx="3" fill="#f5e9d4"/>
+    <text x="0" y="6" text-anchor="middle" font-family="-apple-system, system-ui, Helvetica, Arial" font-weight="700" font-size="20" fill="#b8531c">R</text>
+  </g>
+</svg>
