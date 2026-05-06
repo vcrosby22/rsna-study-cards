@@ -1,5 +1,158 @@
 [
   {
+    "id": "pitch-001",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "The 60-second pitch — say it.",
+    "back": "I'd build RSNA at the Read\nEvery US radiologist needs 25 Category 1 CME credits a year for ABR MOC; today they earn them on weekends from hotel-ballroom modules unrelated to the cases they actually read\nRSNA already has the journals, the standards, the ACCME accreditation — we're the only ones who can grant the credit\nProduct: thin layer that surfaces 1-3 peer-reviewed passages tied to the active case as the radiologist dictates, and silently auto-attests CME when they engage substantively\nUpToDate proved the model for primary care; nobody has built the radiology version because nobody has our asset combination\n6-month MVP partners with one PACS or reporting vendor — Rad AI is the obvious first call\nYear-1 revenue: institutional subscription paid out of CME budgets hospitals already spend\nThe flywheel is the moat: every read teaches us what content rads engage with, sharpens editorial priorities for the journals",
+    "difficulty": "core",
+    "tags": ["pitch", "60-second"],
+    "promptType": "star"
+  },
+  {
+    "id": "pitch-002",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "The two-sentence positioning to drop in 'tell me about yourself'",
+    "back": "I think the most underused asset at RSNA Ventures is the combination of the journal corpus, the ACCME accreditation, and the in-workflow surface that the Rad AI partnership opened\nMost product opportunities I'd bring to this role would start by asking: which of those three are we leveraging today, and which are we leaving on the table?",
+    "difficulty": "core",
+    "tags": ["positioning", "opening"],
+    "promptType": "star"
+  },
+  {
+    "id": "pitch-003",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Problem — the radiologist CME tax (with stats).",
+    "back": "75 Category 1 CME credits every 3 years (~25/yr) required for ABR MOC\nToday: PDFs, online modules, hotel courses, half-watched webinars on weekends\nRadiologist burnout: 44% (male) / 65% (female) per ACR Bulletin\n~44% of working day spent on non-interpretive admin work\nDemand growing faster than workforce: +26.9% imaging vs +25.7% rads over 30 years\nCruel irony: the most relevant CE for any rad is the case in front of them — but workflow doesn't surface it",
+    "difficulty": "core",
+    "tags": ["problem", "stats"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-004",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Why now — three converging forces in 2026.",
+    "back": "AI is in the workflow: Rad AI Reporting + Aidoc CARE + Bayer Calantic — radiologists already accept AI-driven content surfacing. The integration surface is open\nMOC is contested: ABR refining MOC; rads vocal about wanting more authentic, less performative CME\nRSNA Ventures launched October 2025: startup-pace vehicle inside a 110-year non-profit, mandate is to commercialize content at the point of care",
+    "difficulty": "core",
+    "tags": ["why now"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-005",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "RSNA's unfair advantage — the 6 assets.",
+    "back": "6 peer-reviewed journals — the corpus (Radiology, RadioGraphics, Radiology AI, etc.)\nACCME accreditation — RSNA is the issuer of Category 1 credits in radiology\nRadLex + RadElement — tag content with case-context codes for retrieval at the read\nATLAS + ROADMAP — trust layer with citations + provenance for every passage\nRad AI partnership — a live in-workflow surface to ship into\nBrand — radiologists trust RSNA more than any vendor\nNo competitor has any one of these. We have all six.",
+    "difficulty": "core",
+    "tags": ["moat", "assets"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-006",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "The product — what it actually does.",
+    "back": "In-workflow surface: as the rad dictates, sidebar surfaces 1-3 peer-reviewed passages tied to active case (modality + body part + finding type)\nCitations attached, source link visible, dismissable in one click\nEngagement signal: time-on-passage, expand/scroll depth, click-through, optional reflection question for SA-CME\nAuto-attestation: when engagement crosses evidence-based threshold, system silently logs Category 1 credit to rad's RSNA learning record\nSmall '+0.25 CME' indicator — no read interruption\nCME wallet: dashboard showing earned credits, ABR MOC progress, gaps; auto-syncs to CMEgateway and ABR portal",
+    "difficulty": "core",
+    "tags": ["product", "workflow"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-007",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "MVP scope — 6 months.",
+    "back": "One vendor partnership: Rad AI Reporting (corpus already there)\nOne subspecialty: neuro or cardiothoracic (high volume, content-rich)\nOne credit type: time-on-topic Category 1 (no SA-CME questions in MVP)\nOne institutional pilot: 3-5 academic medical centers (UCSF, Cleveland Clinic, Mass General, Penn, Mayo)\nPromote-to-GA criteria:\n— >=30% of reads generate >=1 surfaced passage\n— >=40% of surfaced passages get substantive engagement\n— >=80% of pilot rads earn >=5 credits in 6-month window\n— >=4.0/5 net usefulness rating\n— Zero ACCME / ABR concerns on the attestation methodology",
+    "difficulty": "core",
+    "tags": ["MVP", "scope"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-008",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "12-24 month roadmap.",
+    "back": "Q3 2026: 2 more reporting vendor partners; expand to 4 subspecialties; launch in-app reflection-question SA-CME mode\nQ1 2027: International — 3 markets (UK, AU, CA) with localized content from RadReport; match each market's MOC equivalent\nQ2 2027: Open the platform — non-RSNA-published content can be ingested if it meets editorial review (positions RSNA as trusted aggregator + accreditor)\nQ4 2027: Group MOC — practices and health systems get attestation reporting, audit support, quarterly aggregate insights",
+    "difficulty": "core",
+    "tags": ["roadmap"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-009",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Build / partner / license decisions.",
+    "back": "Content corpus: BUILD (already have it) — RSNA owns the journals\nRetrieval engine (RAG): BUY/PARTNER — managed vector DB or partner with Rad AI's existing infra\nIn-workflow surface: PARTNER — Rad AI first; PACS/RIS later. Integration is the moat for our partner\nAttestation engine: BUILD — regulated, RSNA-only piece; owns ACCME relationship, audit log, credit ledger\nCME tracking integrations: LICENSE/INTEGRATE — CMEgateway, ABR portal, ACCME PARS\nEditorial review workflow: BUILD on existing — RSNA already has editorial; tool is just operational software\nCore principle: build only what we uniquely can; partner everywhere else",
+    "difficulty": "core",
+    "tags": ["build vs partner"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-010",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Business model + Year-1 revenue path.",
+    "back": "Direct (B2C): free for individual RSNA members — membership perk that drives renewals\nInstitutional (B2B): $X/rad/yr for non-member rads at health systems and large practices; sold to same buyer who already pays for CME budgets and PACS contracts\nPartner-share (B2B2C): reporting vendors integrate as a feature; revenue share on institutional subscriptions sourced through their channel\nYear-1 conservative: 5,000 paid seats × $400 ARPU = $2M ARR\nYear-2 with international + 3 vendor partners: 15,000 × $400 = $6M ARR\nThe point: high-margin recurring revenue from an existing asset",
+    "difficulty": "core",
+    "tags": ["revenue", "business model"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-011",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Success metrics — 6-layer framework.",
+    "back": "Engagement: active rads / month — target 5,000+\nWorkflow: % of reads with >=1 surfaced passage — >25%\nQuality: % of surfaced passages rated useful — >60%\nCME outcome: avg credits earned / rad / year — >8 (one-third of annual MOC)\nMission: reduction in radiologist self-reported CME burden (survey) — 25%\nBusiness: net new paid seats / renewal rate — 5,000 / >85%",
+    "difficulty": "core",
+    "tags": ["metrics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-012",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Pushback Q: 'Won't ACCME push back on auto-attestation?'",
+    "back": "UpToDate has been doing engagement-based CME under ACCME accreditation for over a decade — they pioneered point-of-care learning credits as ACCME-recognized format\nMethodology is precedent, not novel\nRSNA is itself ACCME-accredited — we're not asking permission from a third party; we'd co-author the methodology in-house\nThat said, I'd absolutely run it past ACCME staff before MVP launch\nPre-clearance is the lowest-cost insurance available",
+    "difficulty": "core",
+    "tags": ["pushback", "ACCME"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-013",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Pushback Q: 'How is this different from the existing Rad AI partnership?'",
+    "back": "Current partnership surfaces evidence-based content — that's about decision support\nRSNA at the Read is a different value proposition entirely — it's CME credit\nSame pixels on screen, completely different buyer, completely different ROI conversation\nCurrent partnership: paid by Rad AI's customers because better reporting is worth it\nRSNA at the Read: paid by hospitals' CME budgets — different P&L line item that already exists at every institution\nFeatures coexist on the same surface; the monetization is fundamentally different",
+    "difficulty": "core",
+    "tags": ["pushback", "Rad AI"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-014",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Pushback Q: 'Why isn't Wolters Kluwer doing this for radiology already?'",
+    "back": "Two reasons:\nOne: Wolters Kluwer doesn't have radiology depth. UpToDate is general medicine — radiology is barely covered\nTwo: they don't accredit radiology CME, and they don't have the journals or the standards work like RadElement, RadLex, ATLAS\nThey could try to build it, but they'd be a generalist competing against a specialist with thirty years of head start on the corpus\nThe window is open precisely because the only org that should have built this hasn't yet",
+    "difficulty": "core",
+    "tags": ["pushback", "competition"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-015",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Pushback Q: 'What's the riskiest assumption?'",
+    "back": "That radiologists actually engage with content during the read instead of dismissing it — the whole flywheel depends on it\nMitigations:\n— Dismissible-by-default UI\n— Tight retrieval relevance via RadLex/RadElement matching\n— Fast feedback loop: 'not useful' clicks immediately retune the matching for that user\nMVP riskiest-assumption test is exactly this engagement rate — promote to GA only if we hit >=40% substantive engagement on surfaced passages\nIf we miss, we either iterate on retrieval or kill the product\nThat's the explicit pre-mortem",
+    "difficulty": "core",
+    "tags": ["pushback", "risk"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-016",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Pushback Q: '6-month plan in this role to land this?'",
+    "back": "Month 1: stakeholder map signed, success metrics agreed, Rad AI partnership extension scoped\nMonth 2: ACCME pre-clearance kicked off, first pilot site signed verbally\nMonth 3: MVP scope locked, eng team hired or assigned, build started\nMonth 4: alpha in the dictation surface for internal testing\nMonth 5: pilot live at site #1\nMonth 6: pilot data review, decision to expand to sites #2-5 or course-correct\n6-month win is promotion-criteria-met — not GA. GA is month 9-12",
+    "difficulty": "core",
+    "tags": ["pushback", "first 6 months"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-017",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "How to deploy the pitch in the interview.",
+    "back": "Don't lead with it — wait for natural opening ('what would you build?')\nIf they don't ask, mention briefly in closing: 'I came in with a half-built pitch I'd love to walk through if there's time'\nOpening line: 'I did a pitch exercise as prep — partly to think like the role, partly to stress-test how I'd approach point-of-care strategy. Want me to walk through it? 5-minute version with a 60-second TL;DR'\nIf they push back hard: don't defend reflexively. 'That's exactly the kind of constraint I'd want to design around — what specifically worries you about X?'\nIf they love it: don't oversell. 'Where would YOU push back if you were grading this?' — flips the dynamic\nThe pitch is a vehicle for showing your thinking, not a proposal you're attached to",
+    "difficulty": "core",
+    "tags": ["delivery", "interview"],
+    "promptType": "concept"
+  },
+  {
     "id": "rsna-001",
     "topic": "RSNA / Ventures",
     "front": "What is RSNA and where is it based?",

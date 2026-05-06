@@ -1,4 +1,5 @@
 export const TOPICS = [
+  'Pitch: RSNA at the Read',
   'RSNA / Ventures',
   'Radiology Workflow',
   'Standards',
