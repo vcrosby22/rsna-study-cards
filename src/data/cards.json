@@ -1,5 +1,167 @@
 [
   {
+    "id": "hr-001",
+    "topic": "HR Screen Prep",
+    "front": "What is the HR screen actually checking?",
+    "back": "Are you real and presentable: communication, energy, coherence\nDo you roughly match the JD: years, AI, healthcare, people management\nDoes your comp fit our band: the single biggest screen-out reason\nWill you be a hassle: notice, location, travel, other offers\nGoal: clear all 4 cleanly without giving them anything to disqualify you on\nSave deep PM thinking for round 2; save the pitch for the hiring manager\nThe recruiter becomes your internal advocate — build rapport",
+    "difficulty": "core",
+    "tags": ["framing", "HR"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-002",
+    "topic": "HR Screen Prep",
+    "front": "Tell me about yourself — the 90-second answer.",
+    "back": "Three beats: where I am, how I got here, why this role specifically\nProduct manager, ~X years across enterprise SaaS, AI, regulated AI delivery\nTwo threads: shipping AI products that get adopted, and B2B products that customers pay for and renew\nMost recently Sony AITRIOS: startup-pace AI delivery — RAG, embeddings, prompt strategy, Azure OpenAI, enterprise rollouts\nBefore: ServiceNow + UMPG — customer-facing revenue-generating SaaS\nSide: ToolWitness + AI-assisted-work knowledge base — keeps me close to architecture\nClose: 'October 2025 Ventures launch + Rad AI partnership = most interesting point-of-care AI play in healthcare. Org has the content, standards, and trust — just needs the right product judgment to combine them. That's the work I want for the next five years.'\nPractice 3x out loud. Time it. Cut at 90 seconds.",
+    "difficulty": "core",
+    "tags": ["opener", "narrative"],
+    "promptType": "star"
+  },
+  {
+    "id": "hr-003",
+    "topic": "HR Screen Prep",
+    "front": "Why RSNA? Why this role?",
+    "back": "Be specific. Generic answers screen you out.\nThree reasons:\nOne: point-of-care is where AI in healthcare actually has to win — embedding evidence at the moment of interpretation turns AI from a vendor checkbox into a workflow change\nTwo: RSNA's asset combination is unique — journals + RadLex/RadElement + ATLAS + ACCME accreditation. No other org in radiology has that stack\nThree: Ventures is brand new — joining at this stage means helping shape the portfolio, not inheriting someone else's roadmap. Once-in-a-career window.",
+    "difficulty": "core",
+    "tags": ["motivation"],
+    "promptType": "star"
+  },
+  {
+    "id": "hr-004",
+    "topic": "HR Screen Prep",
+    "front": "Why are you leaving your current role?",
+    "back": "Never trash current employer. Frame as pull, not push.\n'I'm not running from anything — Sony AITRIOS has been a great seat for AI product delivery'\n'What I'm looking for next is more ownership of the customer outcome end-to-end, in a domain where the work has clinical or societal weight'\n'RSNA Ventures hits both: product ownership inside a mission-driven org, AI work in service of radiologists who are genuinely overwhelmed'",
+    "difficulty": "core",
+    "tags": ["motivation"],
+    "promptType": "star"
+  },
+  {
+    "id": "hr-005",
+    "topic": "HR Screen Prep",
+    "front": "Healthcare experience question — the bridge.",
+    "back": "This is your single biggest gotcha. JD requires 2+ yrs healthcare/healthtech.\nAcknowledge gap, then bridge through adjacency:\n'Direct healthcare title-time is shorter than my AI-product time, but I've been adjacent in two ways'\n'Sony AITRIOS: AI delivery into enterprise contexts that touched compliance and regulated environments — taught me how to ship AI where stakes are real'\n'The AI patterns that matter at RSNA — RAG, retrieval against curated corpora, hallucination boundaries, citations as a trust layer — are exactly the patterns I've been building with'\nThe bet: 'AI-product fluency in regulated workflows transfers more cleanly than general healthcare PM would. Bottleneck at RSNA Ventures isn't how radiology works — that's learnable. Bottleneck is shipping AI products radiologists actually trust.'\nClose with curiosity not defensiveness: 'How is the team thinking about that mix of healthcare-domain depth versus AI-product fluency?'",
+    "difficulty": "core",
+    "tags": ["healthcare gap", "bridge"],
+    "promptType": "star"
+  },
+  {
+    "id": "hr-006",
+    "topic": "HR Screen Prep",
+    "front": "Management / leadership experience — what to highlight.",
+    "back": "JD requires formal people management. Don't undersell.\nMention:\n— Number of direct reports (or matrixed leadership)\n— Cross-functional team size you've led\n— One specific example of growing someone (1 sentence)\n— Vendor/partner team management — JD calls this out specifically\nIf direct-report count is thin, bridge: 'On top of direct reports I've consistently run cross-functional teams of N — engineering, design, data — plus partner/vendor relationships at Sony with Avanade and Microsoft. Vendor management piece especially translates to RSNA Ventures since so much value is in partner integrations like Rad AI.'",
+    "difficulty": "core",
+    "tags": ["leadership"],
+    "promptType": "star"
+  },
+  {
+    "id": "hr-007",
+    "topic": "HR Screen Prep",
+    "front": "Comp question — STEP 1: flip first, never anchor cold.",
+    "back": "Public band is $145-165K base — below market. Do NOT anchor low.\nFlip first. Verbatim:\n'Before I throw out a number, can you share the range you're working with for this role? I want to make sure we're in the same ballpark before going deeper.'\nThen shut up. Let them share their range first.",
+    "difficulty": "core",
+    "tags": ["compensation", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-008",
+    "topic": "HR Screen Prep",
+    "front": "Comp — STEP 2: if they share the band ($145-165K).",
+    "back": "Acknowledge, then expand to total comp:\n'Got it, that's helpful. Base for me would land toward the top of that range, but more importantly I'd want to understand the full package — bonus structure, any incentive tied to the Ventures subsidiary specifically since it's a new for-profit entity, benefits, and how performance reviews translate to comp progression. Can you walk me through what total comp typically looks like at this level?'\nWhy this works:\n— Doesn't anchor low\n— Signals you've done homework (Ventures = new for-profit; should have incentive-like component)\n— Shifts to total comp = real upside\n— Collaborative, not adversarial",
+    "difficulty": "core",
+    "tags": ["compensation", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-009",
+    "topic": "HR Screen Prep",
+    "front": "Comp — STEP 3: if they refuse to share and push you for a number.",
+    "back": "'Sure — based on my market research and current trajectory, I'd be looking at base in the $175-200K range with bonus or incentive on top, but I'm genuinely flexible on mix'\n'Compensation is one factor, but the role itself is the bigger draw, so I'd rather understand the total picture than get hung up on one number'\nSignals: not bottom-of-the-band, but reasonable",
+    "difficulty": "core",
+    "tags": ["compensation", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-010",
+    "topic": "HR Screen Prep",
+    "front": "Comp — STEP 4: if your current comp is already above their max.",
+    "back": "Be honest gently:\n'My current total comp is closer to $X, so I'd want to make sure we can get close on a total-package basis'\n'I know base may be capped — is there flexibility on bonus, sign-on, or Ventures-specific incentives to bridge that gap?'",
+    "difficulty": "core",
+    "tags": ["compensation", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-011",
+    "topic": "HR Screen Prep",
+    "front": "Notice period / start date.",
+    "back": "Standard: 2 weeks (US norm)\nDon't oversell flexibility — they're probing seriousness, not urgency\n'Standard two weeks at my current role. I could be onboarded by [date roughly 3 weeks out from a likely offer].'",
+    "difficulty": "core",
+    "tags": ["logistics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-012",
+    "topic": "HR Screen Prep",
+    "front": "Are you interviewing elsewhere?",
+    "back": "Yes-leaning answer with discretion. Never lie. Never name-drop unless asked.\n'I am — being thoughtful about what I look at, so it's a small handful of companies, all in AI-adjacent or applied-AI roles'\n'RSNA Ventures is the one I'm most excited about because of the asset combination and mission alignment, but I'd rather be straightforward than pretend I'm not in the market'\nWhy this works: signals demand (urgency), shows discretion (won't gossip), reaffirms RSNA is top choice\nDon't volunteer 'Lytx' by name. If pushed, frame as 'another role in applied AI' without specifics.",
+    "difficulty": "core",
+    "tags": ["competing offers"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-013",
+    "topic": "HR Screen Prep",
+    "front": "Top 5 questions to ASK the recruiter.",
+    "back": "Ask 3-4, not all 5. HR-appropriate only — save strategy questions for hiring manager.\n1. What does the rest of the interview process look like? Who will I meet, in what order?\n2. What's the team's timeline — when do they hope to have someone in seat?\n3. What's the team's biggest hesitation about candidates so far? I'd rather hear it now than guess at it. (GOLD — most candidates don't ask this. Gives you the recruiter's real perspective and tells you what to address in round 2.)\n4. How is the role split between Oak Brook hybrid and remote? CST hours — are there core hours or specific days?\n5. Anything about the team or the work you'd suggest I read or look at before the next conversation?",
+    "difficulty": "core",
+    "tags": ["questions to ask"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-014",
+    "topic": "HR Screen Prep",
+    "front": "Opening 30 seconds — set the tone.",
+    "back": "When call connects:\n'Hi [name], thanks for the time today. I've been looking forward to this — Ventures is one of the more interesting things happening in healthcare AI right now, so I appreciate you reaching out. How would you like to use the time?'\nThen shut up. Let them drive.",
+    "difficulty": "core",
+    "tags": ["opening", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-015",
+    "topic": "HR Screen Prep",
+    "front": "Closing 30 seconds — control the next step.",
+    "back": "Before call ends:\n'This has been really helpful. Two quick things — first, what should I be doing or thinking about between now and the next conversation? And second, what's the best way to follow up if anything else comes to mind on my end?'\nThen send a 4-sentence thank-you within 2 hours.",
+    "difficulty": "core",
+    "tags": ["closing", "script"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-016",
+    "topic": "HR Screen Prep",
+    "front": "Thank-you email template — send within 2 hours.",
+    "back": "Subject: Thanks — and a quick follow-up\n\nHi [name],\n\nThanks for the conversation today — it sharpened my interest, especially [one specific thing they said about the role or team].\n\nI'd be glad to move to the next step whenever the team is ready. Let me know if there's anything else helpful from my side in the meantime.\n\nBest,\nVictoria\n\nDon't skip this. Goes in your inbox-replies forever.",
+    "difficulty": "core",
+    "tags": ["follow-up", "email"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-017",
+    "topic": "HR Screen Prep",
+    "front": "Red flags — what NOT to do.",
+    "back": "Don't pitch RSNA at the Read — overshare, looks tone-deaf. Save for hiring manager.\nDon't get into deep technical answers — 2-sentence answer + offer to go deeper later round\nDon't badmouth current or past employers — recruiters log this\nDon't anchor comp before they do — always flip first\nDon't promise things you can't deliver: start dates, location flexibility, travel %\nDon't try to be the smartest person on the call — recruiter doesn't care, backfires",
+    "difficulty": "core",
+    "tags": ["mistakes"],
+    "promptType": "concept"
+  },
+  {
+    "id": "hr-018",
+    "topic": "HR Screen Prep",
+    "front": "90 minutes before the call — checklist.",
+    "back": "Re-read the JD once. Highlight the 3 phrases the recruiter is most likely to mirror back\nPractice 'tell me about yourself' out loud 3x. Time it. Cut to 90 seconds\nWrite comp number on a sticky note: real ask AND walk-away. Have them in front of you\nHave visible during the call: JD, resume, the one-line positioning ('most underused asset at RSNA Ventures is the combination of journals + ACCME + in-workflow surface')\nGlass of water. Smile when you talk — they hear it on the phone\nThe 3 moves that put you in the top 10%: stay calm on comp, ask the 'biggest hesitation' question, send the thank-you within 2 hours",
+    "difficulty": "core",
+    "tags": ["preparation", "checklist"],
+    "promptType": "concept"
+  },
+  {
     "id": "pitch-001",
     "topic": "Pitch: RSNA at the Read",
     "front": "The 60-second pitch — say it.",
