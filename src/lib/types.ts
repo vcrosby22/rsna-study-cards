@@ -13,6 +13,7 @@ export const TOPICS = [
   'Data & Cloud',
   'Security & DevOps',
   'Regulatory',
+  'PM Methodologies',
   'PM Frameworks',
   'Interview Answers',
   'Negotiation & Offer',

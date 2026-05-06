@@ -1,5 +1,77 @@
 [
   {
+    "id": "pm-method-001",
+    "topic": "PM Methodologies",
+    "front": "Best answer: what PM methodologies do you use?",
+    "back": "I choose the methodology based on the product stage and risk profile\nFor early discovery, I use customer interviews, JTBD, contextual inquiry, and riskiest-assumption testing\nFor prioritization, I like RICE or value-vs-effort, but I’m careful not to pretend the scores are more precise than they are\nFor delivery, I’ve used agile ceremonies, but in regulated environments like Dexcom the real model was hybrid agile inside design controls — iterative software development with traceability, risk management, and launch-readiness gates\nFor AI products, I add evaluation methods around retrieval quality, groundedness, human-in-the-loop review, and guardrail metrics\nThe senior answer: I’m not religious about frameworks. I pick the right tool for the product stage, risk, and team.",
+    "difficulty": "core",
+    "tags": ["pm-methods", "interview-answer"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-method-002",
+    "topic": "PM Methodologies",
+    "front": "Discovery methods: when are they useful and where do they break?",
+    "back": "Jobs to Be Done (JTBD): good for understanding real motivation — when X happens, user wants Y, so they can Z. Great for radiology because the job is not “use AI”; it is “finish a high-quality read without adding clicks.” Weakness: can become abstract if not tied to workflow and data\nCustomer interviews: good for finding pain, language, buying triggers, and objections. Weakness: users ask for solutions, not problems — listen for behavior, not opinions\nContextual inquiry: strongest in healthcare because workflow matters; sitting in a reading room beats 20 abstract interviews. Weakness: slower to schedule and can create observation bias\nOpportunity Solution Tree: good for mapping outcome → opportunity → solution → experiment. Weakness: can feel academic if not grounded in evidence\nRiskiest Assumption Testing: good for 0→1 validation; test what must be true before building. Weakness: helps decide whether to build, not whether it is clinically safe or compliant\nDesign Thinking: good for ambiguity and cross-functional alignment. Weakness: can become workshop theater if not tied to feasibility, business model, and outcomes",
+    "difficulty": "core",
+    "tags": ["discovery", "jtbd", "customer-research"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-003",
+    "topic": "PM Methodologies",
+    "front": "Prioritization methods: when are they useful and where do they break?",
+    "back": "RICE: good for transparent prioritization using Reach, Impact, Confidence, Effort. Weakness: false precision — scores can look objective while being made up\nMoSCoW: good for MVP scope and launch readiness — Must, Should, Could, Won’t. Weakness: stakeholders try to label everything Must; PM discipline matters\nValue vs. Effort: good for fast visual tradeoff discussions. Weakness: too simplistic for regulatory, security, clinical, or partner risk\nKano: good for distinguishing basic expectations, performance features, and delighters. Weakness: less useful for infrastructure, compliance, or B2B buyer decisions\nWSJF: good for enterprise environments where cost of delay matters. Weakness: heavyweight and often overkill for small startup teams\nInterview line: I use prioritization methods to structure the conversation, not to outsource judgment",
+    "difficulty": "core",
+    "tags": ["prioritization", "rice", "moscow", "wsjf"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-004",
+    "topic": "PM Methodologies",
+    "front": "Delivery methods: Agile, Kanban, Dual-Track, Waterfall, and regulated hybrid.",
+    "back": "Agile / Scrum: good for iterative software development, sprint planning, backlog management, and regular feedback. Weakness: can become ceremony-heavy if teams focus on rituals over outcomes\nKanban: good for continuous flow, support queues, operational work, and release management. Weakness: less useful when fixed sprint commitments or coordinated milestones are required\nDual-Track Agile: good when discovery and delivery run in parallel — PM validates what to build while engineering ships validated work. Weakness: collapses if discovery is fake or rushed\nWaterfall / Stage-Gate: good for regulated, hardware-heavy, or approval-heavy work where verification, validation, and traceability matter. Weakness: too slow when requirements are unknown\nHybrid Agile + Design Controls: best answer for Dexcom and healthcare. Iterative software development inside a formal quality system — traceability, risk management, design inputs/outputs, V&V, and launch-readiness gates\nInterview line: Dexcom taught me that you can move iteratively without losing regulatory discipline",
+    "difficulty": "core",
+    "tags": ["delivery", "agile", "design-controls", "regulated"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-005",
+    "topic": "PM Methodologies",
+    "front": "Strategy and roadmap methods: what are they good for?",
+    "back": "OKRs: good for aligning teams around outcomes, not tasks. Weakness: bad when used as a task list or vanity metric system\nNorth Star Metric: good for creating one organizing success metric. Weakness: dangerous in healthcare if one metric hides safety or quality tradeoffs — needs guardrails\nStrategy stack: mission → strategy → roadmap → execution. Good for senior PM interviews because it connects product work to business and mission. Weakness: vague if not tied to customer evidence\nNow / Next / Later roadmap: good for uncertain environments because it communicates direction without overcommitting dates. Weakness: enterprise customers may still need date-based commitments\nOutcome-based roadmap: good for framing roadmap around impact, not features. Weakness: sales, support, and implementation teams still need concrete deliverables\nInterview line: I like outcome-based roadmaps for leadership alignment and date-based launch plans for execution discipline",
+    "difficulty": "core",
+    "tags": ["strategy", "roadmap", "okrs", "north-star"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-006",
+    "topic": "PM Methodologies",
+    "front": "Metrics and evaluation frameworks: what should you use?",
+    "back": "AARRR funnel: good for growth products — Acquisition, Activation, Retention, Referral, Revenue. Weakness: less natural for clinical workflow products unless adapted\nHEART: good for UX/product experience — Happiness, Engagement, Adoption, Retention, Task Success. Weakness: does not capture clinical safety, regulatory, or business-model risk\nNorth Star + input metrics: good for separating the main outcome from controllable drivers. Weakness: needs guardrails so the team does not over-optimize one metric\nGuardrail metrics: essential in healthcare AI — improve time-to-report, but do not increase error rate or workflow disruption. Weakness: can slow decisions if every metric becomes a blocker\nPost-launch review: good for learning what worked, what to kill, and what to scale. Weakness: often skipped unless the org has discipline\nInterview line: In healthcare AI, I would never optimize adoption without safety, quality, and workflow guardrails",
+    "difficulty": "core",
+    "tags": ["metrics", "heart", "guardrails", "post-launch"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-007",
+    "topic": "PM Methodologies",
+    "front": "AI / healthcare-specific methods: what matters most?",
+    "back": "Human-in-the-loop design: good for regulated workflows, clinician trust, and high-stakes decisions. Weakness: slower than full automation when the task is truly low-risk\nModel cards / dataset cards: good for transparency, provenance, limitations, and intended use. Highly relevant to RSNA ATLAS. Weakness: documentation alone does not make a model safe or useful\nRAG evaluation framework: good for RSNA + Rad AI — retrieval precision, citation accuracy, groundedness, and usefulness. Weakness: does not evaluate the full clinical workflow by itself\nRisk management / ISO 14971 thinking: good for identifying hazards, severity, probability, and mitigations. Weakness: too heavyweight for early ideation unless scaled appropriately\nDesign controls: good for traceability from user needs → requirements → verification → validation. Essential for FDA-regulated products. Weakness: overkill for non-device educational content unless it touches clinical decision-making\nInterview line: For AI at point of care, I’d evaluate the model, the retrieval, the user workflow, and the clinical risk separately",
+    "difficulty": "core",
+    "tags": ["ai", "healthcare", "risk", "rag"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pm-method-008",
+    "topic": "PM Methodologies",
+    "front": "How to sound senior when discussing PM frameworks.",
+    "back": "Do not list every framework you know — pick the right one for the product stage and risk profile\nDiscovery: use JTBD, customer interviews, contextual inquiry, and riskiest-assumption testing to understand the problem before committing engineering\nPrioritization: use RICE / value-vs-effort / MoSCoW as decision aids, not decision substitutes\nDelivery: use agile for iteration, but in regulated digital health pair it with design controls, V&V, risk management, and launch-readiness gates\nAI products: add eval methods for retrieval quality, groundedness, hallucination risk, human-in-the-loop review, and guardrails\nBest senior line: Frameworks help teams reason together, but product judgment decides what to do when the framework and reality disagree",
+    "difficulty": "core",
+    "tags": ["senior-pm", "frameworks", "interview"],
+    "promptType": "concept"
+  },
+  {
     "id": "rec-000",
     "topic": "Recruiter Q's",
     "front": "Tell me about yourself — the calibrated 90-second opener.",
