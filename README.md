@@ -2,7 +2,7 @@
 
 A private, mobile-first **PWA** for RSNA Ventures interview prep. Installs to your iPhone home screen, runs full-screen, works offline, and uses lightweight spaced repetition to keep the right cards in front of you.
 
-> Sourced from `../RSNA_INTERVIEW_PREP.md`. 74 hand-curated cards across 8 topics. All progress lives in `localStorage` on the device that installs it. Nothing is uploaded.
+> Sourced from `../RSNA_INTERVIEW_PREP.md` and interview-prep pitch artifacts. 220 hand-curated cards across 18 topics. All progress lives in `localStorage` on the device that installs it. Nothing is uploaded.
 
 ## Quickstart
 
@@ -102,7 +102,7 @@ rsna-study-cards/
 │  │  ├─ SearchView.tsx
 │  │  ├─ StudyDeck.tsx           # queue builder + scheduler glue
 │  │  └─ TopicPicker.tsx         # bottom-sheet topic selector
-│  ├─ data/cards.json            # the 74 study cards
+│  ├─ data/cards.json            # the study cards
 │  ├─ lib/
 │  │  ├─ haptics.ts
 │  │  ├─ srs.ts                  # SM-2 lite
