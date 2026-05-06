@@ -1,5 +1,104 @@
 [
   {
+    "id": "rec-000",
+    "topic": "Recruiter Q's",
+    "front": "Tell me about yourself — the calibrated 90-second opener.",
+    "back": "Senior PM with 13+ years delivering external customer-facing, revenue-generating products end-to-end across healthcare, enterprise SaaS, and AI\nStrongest thread: regulated digital health — 5+ years at Dexcom as PM for FDA-cleared Class II SaMD portfolio (CGM mobile apps, wearables, cloud, hardware, APIs) reaching ~1M paying patients globally. Launched G6 and G7 through 510(k) and post-market; took G6 into 37 international markets\nLast 2 years pivoted into AI specifically — Sony AITRIOS edge-AI with Microsoft and Avanade, and now Intuit Data & AI Acceleration delivering an agentic AI planning capability across a $55M paid-media impact portfolio\nClose: 'Clean overlap between what RSNA Ventures is building — taking trusted, peer-reviewed content to point of care — and what I've spent the last decade doing. At Dexcom I learned to ship FDA-regulated software reaching a million patients. At Sony I learned to ship AI products with partners. RSNA Ventures is the role where those two skills converge.'\nPractice 3x out loud. Time it. Cut at 90 seconds.",
+    "difficulty": "core",
+    "tags": ["opener", "narrative"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-001",
+    "topic": "Recruiter Q's",
+    "front": "Q1: Years of digital PM experience + types of products.",
+    "back": "13+ years in digital product/program management — 2013 to today\nThree product types I've owned end-to-end:\nRegulated digital healthcare: 5+ years at Dexcom on FDA-cleared Class II SaMD — CGM mobile apps (iOS/Android), wearables (Apple Watch, Wear OS), cloud, sensor hw/fw, SDK/REST APIs. ~1M paying patients globally MAU\nExternal enterprise SaaS: ServiceNow Service Mapping protecting Fortune 500 ACV revenue (Microsoft, Qualcomm). UMPG global digital recording library used by music supervisors, agencies, studios\nAI/data-driven products: last 2 years — Sony AITRIOS edge-AI for Fortune 500 retail and Industry 4.0; Intuit Data & AI Acceleration delivering agentic AI planning capability with 27-doc knowledge base across 40+ stakeholders\nThread: external, customer-facing, revenue-generating products in environments where trust and adoption matter",
+    "difficulty": "core",
+    "tags": ["years", "products"],
+    "promptType": "concept"
+  },
+  {
+    "id": "rec-002",
+    "topic": "Recruiter Q's",
+    "front": "Q2: Walk me through a recent product end-to-end (use Dexcom G6 Pro app).",
+    "back": "At Dexcom led G6 Pro app from concept to commercial launch — Class II FDA-cleared SaMD targeting HCPs prescribing CGM + the ~88M-person U.S. pre-diabetic segment\nConcept: VoC research + clinical input — what gap did the consumer G6 leave for clinician-prescribed/temporary-wear use case? Wrote opportunity case + PRD\nDefinition: scope tradeoffs explicitly — what G6 Pro needed at launch vs later. Detailed software requirement specs incl. IEC 62304 considerations\nBuild: cross-functional alignment across firmware, hardware, mobile, wearable, cloud, UX, Marketing, Commercial, Support. Daily PM ownership: PRDs, user stories, MoSCoW, value-vs-effort. Partnered with UX on final designs; led technical-feasibility discussions\nUAT: iterative dev/test through RC. Partnered on design controls + risk management. Aligned launch readiness across every function for FDA-regulated release\nLaunch: GA for B2B/B2B2C — prescribed by HCPs to patients with insurance reimbursement\nOutcome: Dexcom's pathway into prediabetic + HCP-prescribed segments. Broader G6/G7 portfolio I helped lifecycle-manage was a key factor in growth to $45B market valuation\nLearned: in regulated software, launch-readiness scorecard ACROSS ALL FUNCTIONS — not just engineering — is the actual schedule. Minute one function slips, regulatory risk compounds. Transfers directly to AI products needing clinical trust.",
+    "difficulty": "core",
+    "tags": ["concept-to-launch", "Dexcom"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-003",
+    "topic": "Recruiter Q's",
+    "front": "Q3: What stages of the product lifecycle have you personally led?",
+    "back": "Personally owned every stage:\nDiscovery: VoC at Dexcom; customer interviews at Sony; data discovery at Intuit\nDefinition: PRDs, software requirement specs (incl. IEC 62304), scope tradeoffs every employer\nBuild: daily delivery management, agile ceremonies, MoSCoW + value-vs-effort prioritization\nUAT/pilot: design controls + risk mgmt at Dexcom; RC-to-GA testing; customer pilots at Sony with Chipotle, Loblaw, 7-Eleven\nLaunch/GA: FDA 510(k) + post-market at Dexcom; ServiceNow KARSM customer-facing enterprise releases\nIteration/post-market: VoC loops at Dexcom yielding ~15% CSAT improvement; Lean Six Sigma transformation (~$700K annual savings, ~$1M cost avoidance); Siri-shortcut glucose retrieval at 78% iOS adoption; self-service capabilities cutting support call volume ~9%\nStrongest in: the messy middle — definition through pilot — and cross-functional launch readiness for regulated products\nLess time in: deep field sales motion and M&A integration",
+    "difficulty": "core",
+    "tags": ["lifecycle"],
+    "promptType": "concept"
+  },
+  {
+    "id": "rec-004",
+    "topic": "Recruiter Q's",
+    "front": "Q4: Concept-to-launch story — different product (use ServiceNow KARSM).",
+    "back": "For breadth, different example: at ServiceNow led Kingston Advance Release for Service Mapping (KARSM) end-to-end. Different scale, similar lifecycle.\nConcept: customer-facing release intended to protect high-ACV revenue from Fortune 500 (Microsoft, Qualcomm) running ServiceNow's external SaaS platform. Signal: revenue at risk if specific defects weren't addressed\nDefinition: scoped with eng + product leadership. Authored release requirements + user stories across 60+ teams in 4 countries. Tradeoff: deeper feature work vs ship at quality on customer-driven date\nBuild: day-to-day release management — Jira backlog ownership across 60+ teams, release WBS in Smartsheet, ITIL governance gates. Connective tissue across 4-country eng teams on different schedules\nPre-launch: Executive, Architecture, DERT, Security reviews. Reporting dashboards tracking release health, defect burndown, ITIL gates, cross-country deps for GMs and VPs\nLaunch: production deployment in 3 months end-to-end — fast for ITIL-regulated enterprise platform\nOutcome: protected high-ACV revenue, prevented de-booking. Streamlined SDLC + reduced tech debt across ITSM/ITOM\nMy role at each stage shifted: framer early, prioritizer + connector mid-cycle, negotiator + reviewer late. Constant: owning customer outcome end-to-end",
+    "difficulty": "core",
+    "tags": ["concept-to-launch", "ServiceNow"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-005",
+    "topic": "Recruiter Q's",
+    "front": "Q5: Healthcare / wellness / life sciences experience.",
+    "back": "Yes — extensively. 5+ years at Dexcom as Technical PM for Mobile, Wearable & Cloud — directly responsible for FDA-cleared Class II SaMD portfolio:\n— CGM mobile apps (iOS, Android), wearables (Apple Watch, Wear OS), cloud, sensor hw/fw, SDK/REST API ecosystem\n— ~1M paying patients globally MAU\n— Launched G6 and G7 CGM through FDA 510(k) + post-market — flagship customer-facing products tied to Dexcom's growth to $45B market valuation\n— Took G6 into 37 international markets supporting goal of doubling revenue through international expansion\nCross-functional surface area at Dexcom maps almost 1:1 to RSNA Ventures: Regulatory, Quality, Clinical, Engineering across firmware/hardware/mobile/wearable/cloud, UX, Product Marketing, Commercial, Customer Support — gathering inputs into PRDs, partnering on design controls + risk management, aligning launch readiness across all functions for every FDA-regulated release\nStandards translate directly: IEC 62304 software lifecycle, ISO 14971 risk management, ISO 13485 / QMSR, design controls, post-market surveillance — exactly the frame radiology AI products work within\nThe difference between continuous glucose monitoring and radiology AI is the modality; the regulated-product PM craft is the same.",
+    "difficulty": "core",
+    "tags": ["healthcare", "Dexcom"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-006",
+    "topic": "Recruiter Q's",
+    "front": "Q6: AI-supported, data-driven products + problem solved for external user.",
+    "back": "Yes — most of my recent work plus thread back through Dexcom. Three examples:\nIntuit (current) — agentic AI planning capability: 27-doc knowledge base across 8 PM methodologies, 6-mode planning skill, 5-tier trigger detection, 9 production templates. Solves: moving from ambiguous business goal to structured AI-assisted plan. Contributed to $55M incremental paid-media impact across broader Data & AI portfolio\nSony AITRIOS — edge-AI sensing platform. Drove full AI lifecycle: data collection, feature engineering, model integration, fine-tuning, RAG pipelines, embeddings, prompt strategy, API delivery. Microsoft (Azure OpenAI) + Avanade partnerships. Customers: Chipotle, Loblaw, 7-Eleven, Fortune 500 retailers + Industry 4.0 manufacturers. Customer problem: get from raw camera feeds to enterprise-decision-grade insights inside compressed delivery windows. Improved AI delivery throughput ~25% via CRISP-DM\nDexcom — full-stack data-platform vision leveraging proprietary CGM dataset + AI/ML image recognition for annotation/labeling for unmet consumer needs. Concept advanced into product pipeline\nPattern across all three: I gravitate toward AI products where the user's job is high-stakes and AI's role is to surface evidence faster, not replace judgment\nExactly the pattern for Rad AI partnership: RAG-powered content surfacing, not autonomous diagnosis",
+    "difficulty": "core",
+    "tags": ["AI", "data-driven"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-007",
+    "topic": "Recruiter Q's",
+    "front": "Q7: Engineering in-house or partner/vendor?",
+    "back": "Both, depending on the project. That mix is the realistic state of any modern AI product.\nDexcom — primarily in-house: engineering across firmware, hardware, mobile, wearable, cloud all reported into product. I owned PRDs, requirements, sprint priorities, customer-facing decisions. Cross-platform integrations with Clarity, Qualtrics, Google Fit were partner-facing technical work I scoped + ran\nSony AITRIOS — explicitly hybrid: in-house product team (eng + data + design under product) + deep partnerships — Microsoft for Azure OpenAI infrastructure, Avanade for delivery support, ecosystem partners for vertical integrations. I owned strategy + customer experience end-to-end; partners owned model layer + certain delivery components\nIntuit (current) — internal product/eng + data science partners across Consumer Group, 40+ stakeholders\nWhy this matters for RSNA Ventures: operating model is structurally similar. RSNA owns corpus + accreditation + standards in-house. Surface + distribution come through partners like Rad AI. PM job is keeping strategy whole across that boundary. That's exactly the work I've been doing.",
+    "difficulty": "core",
+    "tags": ["partner management", "AI"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-008",
+    "topic": "Recruiter Q's",
+    "front": "Q8: Formal people management — direct reports + roles/levels.",
+    "back": "Be direct about the shape: most roles to date have been technical product/program management with matrixed cross-functional leadership and mentorship rather than large direct-report counts.\nIntuit: orchestrating delivery across 40+ stakeholders + 10 vertical leads\nSony AITRIOS: end-to-end execution leadership across in-house engineering, data, design + partner teams at Microsoft + Avanade\nDexcom: cross-functional leadership across 9 functions for every FDA-regulated release — Regulatory, Quality, 5 engineering disciplines, Clinical, UX, Marketing, Commercial, Support\nServiceNow: orchestrated 60+ cross-functional teams across 4 countries\nMentored teammates consistently — called out in every review cycle. Managed partner/vendor teams as if they were direct reports.\nThe honest gap: haven't run a permanent 5+ direct-report org reporting on 1:1 cadence. Job posting mentions managing 2 PMs growing — that's a step into formal people management I'd take on with the operating model I've used for matrixed teams: weekly 1:1s with IC owning agenda, bi-weekly career conversations, quarterly performance check-ins, situational coaching from tell-through-delegate, 0-30/30-60/60-90 onboarding pattern\nClose with question: 'How does Ventures want this role to balance hands-on PM ownership versus team leadership in the first 12 months — especially as the team grows beyond 2 PMs?'",
+    "difficulty": "core",
+    "tags": ["management", "honest gap"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-009",
+    "topic": "Recruiter Q's",
+    "front": "Q9: How would your team describe your leadership style?",
+    "back": "Three words my team would use:\nCustomer-anchored — I bring the team back to 'what does the user actually need' when we drift toward internal optimization. At Dexcom, stood up VoC feedback loops across Marketing, UX, Customer Support that simplified flows and improved CSAT ~15%\nDirect — I say no fast and explain why. Rather have hard conversation early than polite slow one. At Sony AITRIOS, scoped MVPs DOWN per customer demo even when stakeholders pushed for more, because compressed delivery windows demanded it\nData-led — I default to dashboards, KPIs, quantified tradeoffs. Every role since UMPG has had me build the reporting layer the team + execs use to track delivery — Smartsheet WBS, defect burndown, partner deliverable tracking, KPI dashboards\nTwo more if pushed: calm under pressure (regulated launches teach that), and pushing for technical depth — I want to know how the AI actually works, not just the product framing. That earns trust with engineering.",
+    "difficulty": "core",
+    "tags": ["leadership"],
+    "promptType": "star"
+  },
+  {
+    "id": "rec-010",
+    "topic": "Recruiter Q's",
+    "front": "Q10: Lean / startup / fast-paced inside non-profit.",
+    "back": "Honest framing: haven't worked inside a non-profit specifically. But have worked startup-pace inside very large mature organizations — structurally the same challenge.\nSony AITRIOS — startup-style team operating inside multinational parent. Daily standups, weekly customer demos, MVP-per-demo scoping, ship-then-fix cadence. Inside a parent on very different cadence + risk tolerance\nIntuit currently — 6 concurrent data + AI programs run with startup velocity but inside public-company governance structure\nThe hybrid skill that matters: knowing when to operate by startup rules — move fast, ship rough, iterate publicly with customers — vs big-org rules — stakeholder alignment, formal sign-offs, brand-level risk review. Sometimes literally hour by hour\nMy bet on RSNA Ventures: dynamic is similar — Ventures needs to ship like a startup, but every move coordinates with a 110-year mission-driven institution. Pure startup loses institutional weight; pure big-org loses velocity. The hybrid is where the most interesting work happens, and I've been doing it for the last 2 years.",
+    "difficulty": "core",
+    "tags": ["culture fit", "hybrid"],
+    "promptType": "star"
+  },
+  {
     "id": "hr-001",
     "topic": "HR Screen Prep",
     "front": "What is the HR screen actually checking?",

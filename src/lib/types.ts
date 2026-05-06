@@ -1,4 +1,5 @@
 export const TOPICS = [
+  "Recruiter Q's",
   'HR Screen Prep',
   'Pitch: RSNA at the Read',
   'RSNA / Ventures',
