@@ -1,5 +1,50 @@
 [
   {
+    "id": "pm-case-001",
+    "topic": "PM Case Questions",
+    "front": "How would you define success for [Product Feature]?",
+    "back": "Start by clarifying the user, the job-to-be-done, and the business objective behind the feature\nThen define success across four layers: adoption, engagement, outcome, and guardrails\nClarify goal: who is the user, what job are they trying to do, why are we building now, and is the goal adoption, revenue, efficiency, retention, safety, or quality?\nPrimary outcome: what is the one thing this feature must improve — time saved, report quality, CME credits earned, reduced clicks, higher renewal rate, etc.\nInput metrics: adoption, activation, engagement, retention, workflow impact\nGuardrail metrics: error rate, support tickets, latency, clinical safety concerns, trust, dismissals, workflow disruption\nQualitative signal: user interviews, CSAT/NPS, and “would you be disappointed if this went away?”\nRSNA example: for an evidence sidebar inside Rad AI Reporting, success is not just whether radiologists see it — it is whether it helps them make faster, more confident reads without adding clicks\nShort answer: I’d define success in layers — user outcome, leading indicators, business result, and guardrails. For healthcare AI, I’d always include safety, trust, workflow disruption, and evidence quality",
+    "difficulty": "core",
+    "tags": ["pm-case", "metrics", "success"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-case-002",
+    "topic": "PM Case Questions",
+    "front": "Our metrics are down 10%. How would you determine the root cause?",
+    "back": "Do not jump to conclusions. First clarify which metric is down, over what time window, and whether the drop is statistically meaningful or expected seasonality\nClarify metric: down 10% compared to what? Is it volume, rate, revenue, usage, retention, conversion, or quality?\nCheck instrumentation: analytics change, tracking bug, dashboard definition change, data pipeline issue, release changed events\nSegment: user type, customer/account, geography, platform/device, product version, acquisition channel, workflow step, cohort\nTimeline: did the drop align with a product release, outage, latency issue, pricing change, campaign ending, competitor launch, seasonality, or policy/regulatory change?\nFunnel analysis: where did the drop occur — activation, engagement, conversion, retention, renewal?\nQualitative investigation: support tickets, sales/customer success feedback, user interviews, churn notes, app reviews, session recordings if available\nRSNA example: if RSNA content engagement dropped 10%, segment by site, subspecialty, reporting platform, content type, product version, and case mix\nShort answer: confirm metric and instrumentation, segment the drop, map against timeline events, then validate hypotheses with data and customer feedback before deciding whether this is analytics, product, market, or customer-segment issue",
+    "difficulty": "core",
+    "tags": ["pm-case", "metrics", "root-cause"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-case-003",
+    "topic": "PM Case Questions",
+    "front": "What is a major threat or opportunity facing RSNA Ventures in the next 2 years?",
+    "back": "Best answer: the opportunity and threat are the same thing — AI vendors are racing to own the radiologist workflow\nOpportunity: radiology AI is moving from standalone algorithms into workflow-native platforms\nThreat: if RSNA does not become the trusted content and standards layer inside those workflows, commercial vendors will define the experience without RSNA\nOpportunity details: radiology has the highest number of FDA-cleared AI products; radiologists face volume growth, knowledge growth, and burnout; vendors like Rad AI, Nuance/Microsoft, Sirona, Aidoc, and Bayer Calantic are racing to own workflow\nRSNA unfair assets: peer-reviewed journals, RadLex, RadElement, ATLAS, CME, global trust, and brand\nThreat details: workflow vendors could become the default source of clinical guidance; RSNA content could stay trapped in journals/courses; big tech and AI vendors could commoditize content and own the clinician interface; agentic AI reporting tools could surface generic or vendor-controlled evidence instead of RSNA-validated evidence\nStrategic line: the next two years are about whether RSNA becomes a workflow-native institution or remains primarily a destination institution\nShort answer: the biggest opportunity is making RSNA’s trusted content and standards workflow-native. The biggest threat is that commercial AI platforms become the default knowledge layer for radiology without RSNA",
+    "difficulty": "core",
+    "tags": ["pm-case", "strategy", "threat-opportunity"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-case-004",
+    "topic": "PM Case Questions",
+    "front": "How would you go about building a roadmap for [New Product]?",
+    "back": "Start with outcomes, not features. A roadmap should express customer and business outcomes, then sequence bets based on evidence, risk, dependencies, and learning\nClarify strategy: why build this, what business goal does it serve, what customer problem does it solve, what RSNA asset does it leverage?\nDefine users and segments: primary user, buyer, first segment, academic vs private practice, subspecialty, domestic vs international\nDiscovery: customer interviews, contextual inquiry, workflow mapping, competitive analysis, partner constraints, regulatory/privacy/compliance review\nDefine success metrics: user outcome, business outcome, workflow metrics, guardrails\nMap opportunities: Opportunity Solution Tree, pain points, use cases, jobs-to-be-done\nPrioritize: RICE / value-vs-effort / MoSCoW, strategic fit, risk, dependencies, build/buy/partner, regulatory complexity\nSequence: Now = MVP / riskiest-assumption test; Next = pilot expansion; Later = platform scale. Include kill criteria and learning goals\nAlign stakeholders: engineering, design, partnerships, sales, legal/privacy/regulatory, clinical advisors, leadership\nRSNA example: for point-of-care evidence, start narrow — one partner, one workflow, one subspecialty, one measurable outcome; e.g. neuro CT through Rad AI Reporting surfacing 1-3 RSNA citations during dictation\nShort answer: build the roadmap from outcomes backwards — clarify strategy/users, run discovery, define success, map opportunities, prioritize by value/effort/risk/fit, then sequence into Now / Next / Later",
+    "difficulty": "core",
+    "tags": ["pm-case", "roadmap", "new-product"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pm-case-005",
+    "topic": "PM Case Questions",
+    "front": "Meta answer for any ambiguous PM case question.",
+    "back": "Do not jump into solutions\nClarify the goal\nClarify the user and buyer\nClarify the current baseline and risk profile\nDefine success\nSegment the problem\nPrioritize the highest-leverage opportunity or riskiest assumption\nTest cheaply before building broadly\nMeasure with outcome metrics and guardrails\nIterate based on data and customer feedback\nReusable line: before jumping into solutions, I’d want to clarify the goal, the user, the buyer, the current baseline, and the risk profile. Then I’d pick the right framework for the stage we’re in",
+    "difficulty": "core",
+    "tags": ["pm-case", "meta-framework", "interview"],
+    "promptType": "concept"
+  },
+  {
     "id": "pricing-001",
     "topic": "Pricing Strategy",
     "front": "Best answer: how would you determine pricing for a product?",

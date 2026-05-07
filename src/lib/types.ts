@@ -5,6 +5,7 @@ export const TOPICS = [
   'RSNA / Ventures',
   'Competitor Landscape',
   'Pricing Strategy',
+  'PM Case Questions',
   'Radiology Workflow',
   'Standards',
   'AI in Radiology',
