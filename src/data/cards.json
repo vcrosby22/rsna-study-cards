@@ -1,5 +1,95 @@
 [
   {
+    "id": "pricing-001",
+    "topic": "Pricing Strategy",
+    "front": "Best answer: how would you determine pricing for a product?",
+    "back": "I haven’t been the final owner of pricing decisions, but I have worked on revenue-generating products and understand the process I’d use\nI’d treat pricing as a product discovery and business-model exercise, not just a finance exercise\nThe goal is to understand value created, buyer willingness to pay, competitive alternatives, cost to serve, and the packaging model that makes adoption easiest\nSeven-step process: identify buyer and budget, quantify value created, understand alternatives, choose pricing model, test willingness to pay, model cost-to-serve and margins, then pilot and iterate\nI wouldn’t price from cost alone. I’d price from value, but sanity-check it against competitive alternatives and operational cost",
+    "difficulty": "core",
+    "tags": ["pricing", "interview-answer"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-002",
+    "topic": "Pricing Strategy",
+    "front": "Step 1: separate user, buyer, economic buyer, and beneficiary.",
+    "back": "Pricing depends on the buyer, not just the user\nUser: who uses the product day to day\nBuyer: who signs the contract\nEconomic buyer: whose budget pays for it\nBeneficiary: who gets the value\nRSNA example — user: radiologist; buyer: health system, radiology practice, reporting vendor, or AI platform; economic buyer: CMIO, radiology chair, innovation budget, CME budget, or vendor budget; beneficiary: radiologist, institution, patient, and RSNA\nSenior line: if you don’t know whose budget pays, you don’t have a pricing strategy yet",
+    "difficulty": "core",
+    "tags": ["pricing", "buyer", "segmentation"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-003",
+    "topic": "Pricing Strategy",
+    "front": "Step 2: quantify the value created.",
+    "back": "Ask: what measurable value does the product create?\nTime saved: minutes saved per radiologist per day\nRevenue created or protected: more studies read, higher renewal rate, better throughput\nCost avoided: fewer support calls, fewer manual reviews, less admin burden\nRisk reduced: fewer missed follow-ups, stronger compliance, better auditability\nQuality improved: more consistent reporting, better evidence access, better training\nRSNA example: if point-of-care content saves 5 minutes per shift or helps earn CME inside workflow, quantify time saved, CME budget substitution, retention/burnout value, and confidence/quality improvement",
+    "difficulty": "core",
+    "tags": ["pricing", "value", "roi"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-004",
+    "topic": "Pricing Strategy",
+    "front": "Step 3: understand alternatives and competitors.",
+    "back": "Pricing is anchored by what the buyer compares you to\nAsk: are they comparing us to another vendor, a manual workflow, CME courses, internal admin time, a reporting platform add-on, or doing nothing?\nFor RSNA, Rad AI / reporting tools may be workflow comparables\nUpToDate may be a point-of-care learning comparable\nACR/RSNA CME courses may be budget comparables\nManual literature search may be the do-nothing alternative\nSenior line: the competitor is not always a company — sometimes it is an existing budget line, habit, or manual workaround",
+    "difficulty": "core",
+    "tags": ["pricing", "competition", "alternatives"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-005",
+    "topic": "Pricing Strategy",
+    "front": "Step 4: choose the pricing model.",
+    "back": "Common pricing models:\nPer seat: dollars per radiologist per year\nPer institution: annual enterprise license\nUsage-based: per study, report, API call, or CME credit earned\nTiered packaging: basic / pro / enterprise\nPartner revenue share: vendor sells it, RSNA gets a percentage\nIncluded with membership: drives retention rather than direct revenue\nHybrid: member benefit plus enterprise upsell\nFor RSNA Ventures, I’d consider member access included or discounted, institutional license for practices/health systems, vendor channel or revenue share through Rad AI/PowerScribe/Sirona, and enterprise tier with analytics, reporting, admin tools, and support",
+    "difficulty": "core",
+    "tags": ["pricing-models", "packaging", "enterprise"],
+    "promptType": "compare"
+  },
+  {
+    "id": "pricing-006",
+    "topic": "Pricing Strategy",
+    "front": "Step 5: test willingness to pay.",
+    "back": "Don’t ask: would you pay for this? People lie\nBetter questions: what budget would this come from? What are you paying for the current alternative? Who would need to approve this? At what price would this feel like a no-brainer? At what price would it require CFO approval? What would make this worth renewing?\nUseful methods: Van Westendorp price sensitivity, conjoint analysis for package tradeoffs, sales discovery with real buyers, fake-door pricing page, pilot LOIs with pricing language, A/B testing if self-serve\nSenior line: willingness-to-pay research should identify the budget owner, approval path, and renewal logic — not just a number",
+    "difficulty": "core",
+    "tags": ["pricing", "willingness-to-pay", "research"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-007",
+    "topic": "Pricing Strategy",
+    "front": "Step 6: model costs, margins, and AI-specific cost drivers.",
+    "back": "Pricing has to cover cost-to-serve and margin expectations\nGeneral costs: engineering, hosting, implementation, support, customer success, sales, legal, security, compliance, and partner revenue share\nContent-product costs: licensing, editorial review, content tagging, updates, citation governance\nAI-product costs: token costs, vector database/retrieval costs, human review costs, monitoring and eval infrastructure, model safety work\nHealthcare costs: privacy, security reviews, BAAs if PHI is touched, audit logs, validation, regulatory/legal review\nSenior line: price from value, but never ignore gross margin or implementation burden",
+    "difficulty": "core",
+    "tags": ["pricing", "margin", "ai-costs"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-008",
+    "topic": "Pricing Strategy",
+    "front": "Step 7: package, pilot, and iterate.",
+    "back": "Packaging matters as much as price — avoid selling a single feature; package around the buyer’s job\nPossible RSNA packaging: individual access included with premium RSNA membership; practice per-radiologist annual license; enterprise with SSO, admin dashboard, CME reporting, audit logs, analytics; partner API/content integration into Rad AI, PowerScribe, Sirona, etc.\nStart with a pilot price, not a forever price\nMeasure conversion, sales-cycle length, discounting pressure, renewal intent, usage/adoption, value realized, support burden, and gross margin\nRevise packaging and pricing before broad launch\nSenior line: pilot pricing is a learning instrument, not just an early revenue number",
+    "difficulty": "core",
+    "tags": ["pricing", "packaging", "pilot"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-009",
+    "topic": "Pricing Strategy",
+    "front": "RSNA-specific pricing answer for point-of-care products.",
+    "back": "For a point-of-care RSNA product, I’d first clarify whether the buyer is the radiologist, institution, or workflow vendor\nIf sold through Rad AI or another platform, pricing may look like partner revenue share or enterprise licensing\nIf CME-oriented, the budget might come from professional development, institutional CME spend, or membership value\nIf decision-support content, the value story is time saved, confidence, consistency, reduced cognitive load, and less manual literature search\nIf standards/API/content integration, the value may be vendor differentiation, faster implementation, trusted citations, and reduced content-maintenance burden\nI’d test packaging with pilot sites before locking price\nSenior line: RSNA should price around the value of trusted content in workflow, not around the raw cost of serving articles",
+    "difficulty": "core",
+    "tags": ["rsna", "pricing", "point-of-care"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pricing-010",
+    "topic": "Pricing Strategy",
+    "front": "Honest framing if you haven’t owned pricing directly.",
+    "back": "I haven’t been the final pricing owner, but I have owned revenue-generating products and the product inputs that pricing depends on\nThose inputs include customer value, segmentation, packaging, adoption, cost-to-serve, launch strategy, and post-launch performance\nI’d partner closely with finance, sales, commercial leadership, and legal on the final number\nBut I’d expect Product to own the value story, buyer segmentation, package logic, and pilot-learning loop\nStrong close: pricing is cross-functional, but product should make sure the price reflects the customer value and the way the product will actually be bought, adopted, and renewed",
+    "difficulty": "core",
+    "tags": ["pricing", "honest-gap", "interview-answer"],
+    "promptType": "concept"
+  },
+  {
     "id": "comp-001",
     "topic": "Competitor Landscape",
     "front": "RSNA Ventures / Rad AI competitor map — who is partner, competitor, or adjacent?",
