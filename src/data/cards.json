@@ -1,5 +1,50 @@
 [
   {
+    "id": "pitch-refresh-001",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "RSNA at the Read — what is the product idea?",
+    "back": "RSNA at the Read = workflow-native CME for radiologists — point-of-care learning, auto-attested\nIt turns every clinical read into a CME opportunity\nAs a radiologist dictates, the product surfaces 1–3 RSNA peer-reviewed passages tied to the active case\nIf the radiologist engages substantively, the system silently auto-attests Category 1 CME credit\nThe model is: trusted RSNA content + in-workflow reporting surface + RSNA CME authority\nBest one-liner: the radiologist’s reading workflow is already the highest-leverage learning surface in medicine — RSNA is just the only organization that can turn it into accredited CME",
+    "difficulty": "core",
+    "tags": ["pitch", "product-idea", "cme"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-refresh-002",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "RSNA at the Read — 60-second pitch.",
+    "back": "I’d build RSNA at the Read\nEvery US radiologist needs 25 Category 1 CME credits a year for ABR maintenance of certification, and today they earn them on weekends — sitting through hotel-ballroom modules that have nothing to do with the cases they actually read\nRSNA already has the journals, the standards, and the ACCME accreditation. We’re the only ones who can grant the credit\nThe product is a thin layer that surfaces 1–3 peer-reviewed passages tied to the active case as the radiologist dictates — and silently auto-attests CME when they engage substantively\nUpToDate proved the model works for primary care; nobody has built the radiology version because nobody has our asset combination\nSix-month MVP partners with one PACS or reporting vendor — Rad AI is the obvious first call\nYear-one revenue path is institutional subscription, paid out of CME budgets that hospitals already spend\nThe flywheel is real: every read teaches us what content radiologists engage with at the moment of need, which sharpens editorial priorities for the journals and tightens the moat over time",
+    "difficulty": "core",
+    "tags": ["pitch", "60-second"],
+    "promptType": "star"
+  },
+  {
+    "id": "pitch-refresh-003",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "Why RSNA at the Read works.",
+    "back": "Clear pain: radiologists need about 25 Category 1 CME credits per year, but CME is often after-hours and disconnected from daily workflow\nPerfect RSNA fit: RSNA has the journals, CME accreditation, standards, brand trust, and Rad AI partnership\nPoint-of-care alignment: it lives inside the radiologist’s actual read/dictation workflow\nNot too complex for a pitch: first MVP can be narrow — one partner, one subspecialty, one content corpus, one credit type\nDefensible moat: no normal vendor has both trusted radiology content and CME authority\nStrategic meaning: RSNA moves from destination institution — journals, annual meeting, courses — to workflow-native institution",
+    "difficulty": "core",
+    "tags": ["pitch", "why-it-works", "moat"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-refresh-004",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "RSNA at the Read — MVP scope.",
+    "back": "Partner: Rad AI Reporting first because it is the current strategic partner and workflow surface\nSubspecialty: start with neuro or cardiothoracic — high-volume, content-rich, and clinically relevant\nCredit type: time-on-topic Category 1 CME for MVP; save SA-CME/reflection questions for later\nPilot: 3–5 academic medical centers\nSuccess criteria: ≥30% of reads generate at least one surfaced passage\nSuccess criteria: ≥40% of surfaced passages get meaningful engagement\nSuccess criteria: ≥80% of pilot radiologists earn ≥5 credits in six months\nSuccess criteria: ≥4.0/5 usefulness rating\nGuardrail: no ACCME or ABR concerns about attestation methodology",
+    "difficulty": "core",
+    "tags": ["pitch", "mvp", "success-metrics"],
+    "promptType": "concept"
+  },
+  {
+    "id": "pitch-refresh-005",
+    "topic": "Pitch: RSNA at the Read",
+    "front": "RSNA at the Read — build / partner / business logic.",
+    "back": "Build: attestation engine, CME credit ledger, audit log, and editorial workflow — these are RSNA-only capabilities\nPartner: in-workflow surface through Rad AI first, then potentially PowerScribe, Sirona, or other reporting vendors\nUse existing assets: RSNA journals, RadLex, RadElement, ATLAS, ROADMAP, CME infrastructure, and brand trust\nIntegrate: CMEgateway / ABR tracking where possible\nBusiness model: institutional subscription, partner revenue share, and membership value\nCore principle: build only what RSNA uniquely can; partner everywhere else\nSenior line: Rad AI first, but long term RSNA should be workflow-surface-agnostic — the moat is trusted RSNA content and CME authority showing up wherever radiologists already work",
+    "difficulty": "core",
+    "tags": ["pitch", "build-partner", "business-model"],
+    "promptType": "concept"
+  },
+  {
     "id": "pm-case-001",
     "topic": "PM Case Questions",
     "front": "How would you define success for [Product Feature]?",
