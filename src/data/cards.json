@@ -1,5 +1,32 @@
 [
   {
+    "id": "comp-001",
+    "topic": "Competitor Landscape",
+    "front": "RSNA Ventures / Rad AI competitor map — who is partner, competitor, or adjacent?",
+    "back": "RSNA Ventures is not Rad AI's owner — Rad AI is an external strategic partner and reporting workflow surface\nRad AI Reporting: genAI radiology reporting platform; RSNA Ventures partnership surfaces RSNA peer-reviewed content inside the reporting workflow. Relationship: current partner surface\nNuance PowerScribe / Microsoft Dragon Copilot: dominant incumbent reporting platform. Relationship: competitive reporting surface to Rad AI, but also a possible future RSNA content distribution partner\nSirona Medical: cloud-native radiology operating system/reporting platform; publicly positions reporting as multimodal, agentic AI. Relationship: competitor/alternative workflow surface\nBayer Calantic: vendor-neutral AI marketplace/orchestration layer for imaging AI apps; has collaborated with Rad AI. Relationship: adjacent platform, possible channel/partner, not direct reporting competitor\nAidoc CARE / aiOS: image-analysis, triage, care-orchestration, foundation-model platform. Relationship: adjacent enterprise AI platform; competes for budget/workflow attention, not same job as reporting\nSmart Reporting: structured reporting/templates. Relationship: adjacent/competitive in structured reporting; possible standards/content partner angle\nBest mental model: reporting surfaces compete with Rad AI; orchestration and triage platforms are adjacent; RSNA Ventures' moat is trusted content, standards, accreditation, and brand",
+    "difficulty": "core",
+    "tags": ["competitors", "Rad AI", "RSNA Ventures"],
+    "promptType": "compare"
+  },
+  {
+    "id": "comp-002",
+    "topic": "Competitor Landscape",
+    "front": "Which radiology workflow competitors are using agentic AI?",
+    "back": "Microsoft/Nuance: yes, publicly moving that way — Dragon Copilot for radiologists is positioned as generative, multimodal, and agentic AI integrated with PowerScribe One\nSirona: yes, explicitly positions reporting as built with multimodal, agentic AI; voice commands can trigger workflow actions like mining patient history and synchronizing report/image context\nRad AI: clearly genAI reporting and workflow automation; public positioning emphasizes reporting, impressions, follow-up, and workflow automation more than the phrase “agentic AI”\nAidoc CARE: foundation-model AI and enterprise orchestration; strong AI platform but more triage/image-analysis/care coordination than agentic reporting\nBayer Calantic: AI marketplace/orchestration, not primarily agentic AI; important because it can coordinate third-party AI apps and has partnered with Rad AI\nSmart Reporting: structured reporting and templates; not the strongest public agentic-AI story\nInterview line: the agentic-AI arms race is most visible in reporting assistants, but RSNA should not chase the label. The product question is: does the AI reduce radiologist cognitive load safely, with evidence, citations, and no extra clicks?",
+    "difficulty": "core",
+    "tags": ["agentic AI", "competitors", "reporting"],
+    "promptType": "concept"
+  },
+  {
+    "id": "comp-003",
+    "topic": "Competitor Landscape",
+    "front": "Clean interview answer: are these technologies used by Rad AI or competitors?",
+    "back": "I’d separate them into workflow surfaces and adjacent AI platforms\nRad AI is not RSNA’s owned product; it is RSNA Ventures’ first strategic partner and reporting surface\nNuance PowerScribe is the major incumbent and a competitive reporting surface, though it could also become a future RSNA content surface\nSirona is another competitive reporting/workflow surface and is leaning hard into multimodal/agentic AI positioning\nBayer Calantic is more of an AI marketplace and orchestration layer — adjacent, and potentially a partner or channel; it has collaborated with Rad AI\nAidoc CARE is more image-analysis, triage, and care orchestration — adjacent enterprise AI, not a direct reporting competitor\nSo they are not technologies “inside Rad AI.” They are mostly adjacent or competing workflow platforms that RSNA Ventures should understand as partners, competitors, or distribution channels\nSenior close: RSNA Ventures wins by being workflow-surface-agnostic — Rad AI first, but the long-term moat is RSNA content and standards showing up in whichever platform radiologists already use",
+    "difficulty": "core",
+    "tags": ["interview-answer", "ecosystem", "competitors"],
+    "promptType": "concept"
+  },
+  {
     "id": "pm-method-001",
     "topic": "PM Methodologies",
     "front": "Best answer: what PM methodologies do you use?",
